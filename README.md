@@ -12,5 +12,5 @@ Playora is a dynamic e-commerce platform for music lovers, built with modern web
 ### Technologies Used
 * **Frontend**: The application is built using React.js, with React Context for robust state management of authentication, cart, and favorites. It uses react-router-dom for handling navigation between pages.
 * **Data Management**: Data is fetched and managed using axios, a popular library for making HTTP requests. The application communicates with a local mock REST API to handle user accounts, cart items, and favorite products.
-* **Styling**: The design leverages a component-based approach, utilizing a combination of custom CSS and class names that suggest a framework like Bootstrap for a clean and responsive layout.
+* **Styling**: The design leverages a component-based approach, utilizing a combination of custom CSS, class names that suggest a framework like Bootstrap for a clean and responsive layout, and the **Animate.css** library for adding a variety of animations. 
 * **Interactivity**: The use of the Swiper library enables the creation of smooth, interactive carousels and banners.
