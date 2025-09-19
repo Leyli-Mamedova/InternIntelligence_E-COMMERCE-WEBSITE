@@ -1,0 +1,29 @@
+
+@media (max-width: 768px) {
+    .cart-item-main {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .cart-item-info {
+        order: 3;
+        flex-basis: 100%;
+    }
+
+    .summary-content {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .summary-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .order-btn,
+    .clear-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}

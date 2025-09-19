@@ -1,0 +1,531 @@
+* {
+  font-family: "Marcellus", serif;
+  padding: 0;
+
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.federant-regular {
+  font-family: "Federant", serif;
+}
+
+header {
+  background-color: rgb(171, 46, 254);
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.nav-link:hover {
+  color: rgb(198, 112, 255) !important;
+}
+
+.nav-item {
+  position: relative;
+}
+
+nav .nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(171, 46, 254);
+  transition: 0.3s;
+}
+
+nav .nav-item:hover::after {
+  width: 100%;
+}
+
+
+header input {
+  outline: none;
+  border: 2px solid rgb(201, 130, 248);
+}
+
+header input:focus {
+  box-shadow: 0 0 2px 3px rgb(209, 140, 255);
+  transition: 0.1s;
+}
+
+footer {
+  z-index: 10001;
+}
+
+.footer-link:hover,
+.about-more-info:hover {
+  text-decoration: underline !important;
+}
+
+.footer-link:focus {
+  color: rgb(198, 112, 255) !important;
+
+}
+
+.footer-icon:focus {
+  color: rgb(198, 112, 255) !important;
+}
+
+.home-main {
+  background: linear-gradient(180deg, rgb(171, 46, 254), rgb(223, 133, 251));
+}
+
+.home-main.text-pop h1,
+.home-main.text-pop img {
+  opacity: 0;
+  transform: translateY(60px);
+  animation-name: animasiya;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+}
+
+.home-main.text-pop h5 {
+  opacity: 0;
+  transform: translateY(60px);
+  animation-name: animasiya;
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animasiya {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.mental {
+  background: linear-gradient(180deg, rgb(223, 133, 251)40%, rgb(171, 46, 254));
+}
+
+.mental-btn {
+  font-size: 18px !important;
+  border: 1px solid black !important;
+}
+
+.mental-btn:hover {
+  background-color: rgb(62, 30, 114) !important;
+  color: white !important;
+  transition: 0.2s;
+}
+
+.footer-icon:focus {
+  transform: rotateY(180deg) !important;
+  transition: 0.3s !important;
+  pointer-events: auto !important;
+}
+
+.about-music,
+.about-delivery {
+  padding: 80px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-delivery {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://png.pngtree.com/background/20210714/original/pngtree-music-sound-waves-background-with-colourful-smoke-effect-picture-image_1226861.jpg);
+}
+
+.about-music {
+  background-image: linear-gradient(rgba(171, 46, 254, 0.7) 1%, rgba(0, 0, 0, 0.6)), url(https://png.pngtree.com/background/20210714/original/pngtree-music-sound-waves-background-with-colourful-smoke-effect-picture-image_1226861.jpg);
+}
+
+.about-albums {
+  background-color: black;
+}
+
+.about-us img {
+  width: 20%;
+}
+
+.journey {
+  text-align: justify;
+}
+
+.rotate {
+  animation: rotate 0.7s linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.albums-dropdown-li:hover {
+  background-color: rgba(230, 203, 251, 0.6) !important;
+}
+
+.genre-page {
+  background: linear-gradient(0deg, rgb(223, 133, 251), rgb(171, 46, 254));
+}
+
+.drop-down-artists:hover {
+  background-color: rgba(230, 203, 251, 0.6) !important;
+  color: black !important;
+  cursor: default;
+}
+
+.card:hover {
+  box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.1s;
+}
+
+.card-button {
+  background-color: rgb(115, 24, 176) !important;
+}
+
+.card-button:hover {
+  background-color: rgb(62, 30, 114) !important;
+}
+
+.trending-artists {
+  margin-top: 70px !important;
+}
+
+.trend-artist {
+  transition: 0.6s !important;
+}
+
+.trend-artist:hover {
+  transform: translateY(-20px);
+}
+
+.trends {
+  background-color: rgb(223, 133, 251);
+}
+
+.about-page {
+  background: rgb(223, 133, 251);
+}
+
+.padding-massive {
+  padding: 80px 0;
+}
+
+.about-desc {
+  border-top: 1px solid rgba(67, 67, 68, 0.8);
+  border-bottom: 1px solid rgba(67, 67, 68, 0.8);
+  padding: 25px 0;
+  margin: 40px 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#international {
+  border-top: 1px solid rgba(67, 67, 68, 0.8);
+  padding-top: 30px;
+}
+
+#delivery {
+  padding-bottom: 30px;
+}
+
+.about-more {
+  border-top: 1px solid rgba(67, 67, 68, 0.8);
+  border-bottom: 1px solid rgba(67, 67, 68, 0.8);
+  padding: 20px 0;
+  margin: 30px 0;
+}
+
+.number6 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://w0.peakpx.com/wallpaper/1005/676/HD-wallpaper-hot-purple-steam-art-purple-hot-neon-color-abstract.jpg);
+  background-color: #212529;
+  padding-top: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inps input,
+textarea {
+  font-size: 18px;
+  outline: 0;
+  border: 2px solid rgb(178, 98, 215);
+  background-color: white !important;
+}
+
+.inps input:focus,
+textarea:focus {
+  border: 2px solid rgb(192, 120, 225);
+  box-shadow: 0 0 2px 6px rgb(221, 136, 232);
+}
+
+.inps input::placeholder,
+textarea::placeholder {
+  color: rgba(115, 24, 176, 0.8);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.contacts-btn {
+  border: 1px solid rgb(74, 34, 102) !important;
+  font-size: 18px;
+  background-color: rgb(74, 34, 102) !important;
+  color: white !important;
+}
+
+.contacts-btn:hover {
+  transition: 0.2s;
+  background-color: rgb(105, 27, 123) !important;
+  color: white !important;
+
+}
+
+.spin-picture {
+  animation-name: spin;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.delivery-text {
+  color: rgb(171, 46, 254) !important;
+}
+
+.login-section,
+.signup-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://c4.wallpaperflare.com/wallpaper/73/145/208/music-wallpaper-preview.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-form,
+.signup-form {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.fa-user-div {
+  background-color: rgb(94, 15, 147);
+}
+
+.login-input,
+.signup-input {
+  outline: none;
+}
+
+.login-forgot {
+  color: rgb(94, 15, 147) !important;
+}
+
+.login-input:focus,
+.signup-input:focus {
+  /* border: 1px solid rgb(79, 38, 98) !important; */
+  box-shadow: 1px 5px 5px 4px rgb(158, 114, 168) !important;
+}
+
+.sign-up {
+  color: rgb(90, 33, 129) !important;
+}
+
+.submit {
+  background-color: rgb(94, 15, 147) !important;
+}
+
+.submit:hover {
+  background-color: rgb(78, 14, 121) !important;
+}
+
+.cart-section {
+  background: linear-gradient(180deg, rgb(223, 133, 251), rgb(169, 81, 228));
+  min-height: 100vh;
+}
+
+#order {
+  background-color: rgb(115, 24, 176) !important;
+}
+
+#order:hover {
+  background-color: rgb(62, 30, 114) !important;
+}
+
+.closing-btn:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.fav-section {
+  background: linear-gradient(190deg, rgb(223, 133, 251)63%, rgb(169, 81, 228));
+  min-height: 100vh;
+}
+
+
+.scrollable-dropdown-menu {
+  transform: unset !important;
+  max-height: 443px !important;
+  overflow-y: auto !important;
+  position: static !important;
+  top: 0;
+  left: 0;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+
+  .about-music,
+  .about-delivery {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://png.pngtree.com/background/20210714/original/pngtree-music-sound-waves-background-with-colourful-smoke-effect-picture-image_1226861.jpg);
+  }
+
+
+  .playora-nav {
+    width: 30% !important;
+  }
+
+  .text-pop {
+    height: 660px !important;
+  }
+
+  #mental-image {
+    width: 18rem !important;
+  }
+
+  .card-title {
+    height: 42px;
+  }
+
+  .about-picture {
+    width: 100% !important;
+  }
+
+  .trending-artists {
+    margin-top: 0px !important;
+  }
+
+  .tracklist-list {
+    white-space: normal;
+  }
+
+  .mobile-menu-wrapper {
+    display: block !important;
+  }
+
+  .navbar.d-none.d-md-flex {
+    display: none !important;
+  }
+
+  .mobile-nav {
+    transition: 0.2s;
+  }
+
+  .promotion-photos{
+    width: 250px !important;
+    height: 250px !important;
+  }
+
+  .categories-genres{
+    width: 170px !important;
+  }
+
+  .promotion-height{
+    height: 550px !important;
+  }
+
+}
+
+.mobile-menu-wrapper {
+  position: relative;
+  z-index: 1000;
+}
+
+.mobile-menu-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Анимация для плавного открытия/закрытия */
+.mobile-menu-content {
+  transition: opacity 0.3s ease;
+}
+
+.search-home:focus {
+  border: 1px solid rgb(174, 102, 222) !important;
+  box-shadow: 0 0 1px 4px rgb(223, 133, 251) !important;
+}
+
+.drop-down-artists input {
+  cursor: pointer !important;
+  /* сам чекбокс можно оставить с курсором pointer */
+}
+
+.drop-down-artists label {
+  cursor: default !important;
+  /* текст и остальная область — обычный курсор */
+}
+
+.category-card:hover {
+  box-shadow: 0 0 10px rgb(93, 0, 107) !important;
+}
+
+.category-card {
+  background: linear-gradient(195deg, rgb(255, 255, 255)60%, rgb(169, 81, 228)) !important;
+}
+
+.hero-buttons {
+  background-color:rgb(62, 30, 114)  !important;
+}
+
+
+.hero-buttons:hover {
+  background-color: rgb(94, 15, 147) !important;
+}
+
+.payment-border:focus {
+  border: 1px solid rgb(171, 119, 206) !important;
+  box-shadow: 0 0 1px 4px rgb(232, 190, 244) !important;
+}

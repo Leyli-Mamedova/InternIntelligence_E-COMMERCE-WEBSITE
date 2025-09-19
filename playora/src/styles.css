@@ -1,0 +1,34 @@
+
+
+.banner img,
+.text-pop img {
+  height: 25rem;
+  width: 24rem;
+  object-fit: cover;
+}
+
+img:last-of-type {
+  padding-left: 0;
+}
+
+.inner {
+  height: 25rem;
+}
+
+section {
+  animation: swipe var(--speed) linear infinite backwards;
+}
+
+.banner-image img {
+  display: block !important;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}

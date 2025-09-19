@@ -1,0 +1,2263 @@
+{
+  "albums": [
+    {
+      "id": "11",
+      "title": "Queen 1",
+      "desc": "The album combines hard rock, progressive rock, and glam influences, featuring dynamic guitar riffs, powerful vocals, and intricate arrangements. Lyrically, it explores themes of ambition, fantasy, and personal reflection, establishing the band’s signature theatrical and innovative sound that would define their early career. The album marked a strong debut for the band, receiving critical praise and helping establish Queen as a rising force in the UK rock scene. Its single 'Seven Seas of Rhye' became their first chart hit, reaching the top ten in the UK, and the album laid the groundwork for their enduring international success.",
+      "release": "July 13, 1973",
+      "price": "24.00",
+      "photos": "https://thesoundofvinyl.com/cdn/shop/files/1_CD.jpg?v=1755697085",
+      "tracklist": [
+        "Keep Yourself Alive",
+        "Doing All Right",
+        "Great King Rat",
+        "My Fairy King",
+        "Liar",
+        "The Night Comes Down",
+        "Modern Times Rock 'n' Roll",
+        "Son and Daughter",
+        "Jesus",
+        "Seven Seas of Rhye"
+      ],
+      "genreIds": 1,
+      "artistId": 44
+    },
+    {
+      "id": "12",
+      "title": "Hot Space",
+      "desc": "The album experiments with funk, disco, and pop influences, marking a stylistic departure from Queen’s traditional rock sound. It blends rhythmic grooves, electronic elements, and melodic hooks, reflecting the band’s willingness to innovate and explore contemporary trends of the early 1980s.",
+      "release": "May 4, 1982",
+      "price": "30.00",
+      "photos": "https://cover.box3.net/newsimg/dvdmov/max1319938080-potlaccd-cover.jpg",
+      "tracklist": [
+        "Hot Space",
+        "Back Chat",
+        "Body Language",
+        "Life Is Real (Song for Lennon)",
+        "Calling All Girls",
+        "Put Out the Fire",
+        "Life Is Real (Reprise)",
+        "Under Pressure"
+      ],
+      "genreIds": 1,
+      "artistId": 44
+    },
+    {
+      "id": "0",
+      "title": "Dont Smile at Me",
+      "desc": "Debut EP introduced the world to her haunting yet delicate style, blending minimalist pop with elements of indie and electronic music. The project showcases her signature whispery vocals layered over sparse but impactful production, creating an atmosphere that feels both intimate and unsettling. Lyrically, the EP explores themes of vulnerability, heartbreak, defiance, and youthful self-discovery, with tracks like “Ocean Eyes” and “Bellyache” becoming breakout hits. Don’t Smile at Me set the foundation for Eilish’s artistic identity, establishing her as a bold new voice unafraid to experiment with sound and mood while connecting deeply with listeners.",
+      "release": "11th August 2017",
+      "price": "11.00",
+      "photos": "https://m.media-amazon.com/images/I/71r8pkK1GDL._UF894,1000_QL80_.jpg",
+      "tracklist": [
+        "Copycat",
+        "I don't wanna be you anymore",
+        "My Boy",
+        "Watch",
+        "Party Favor",
+        "Bellyache",
+        "Ocean Eyes",
+        "Hostage",
+        "Lovely (with Khalid)"
+      ],
+      "genreIds": [
+        0
+      ],
+      "artistId": 8
+    },
+    {
+      "id": "1",
+      "title": "Hit Me Hard and Soft",
+      "desc": "The second studio album  is an intimate and cinematic body of work that blends indie pop, ambient textures, and alternative influences into a cohesive journey. The record flows seamlessly from track to track, encouraging listeners to experience it in full rather than as individual singles. Lyrically, it explores themes of love, vulnerability, identity, and isolation with a maturity and honesty that mark a new chapter in Eilish’s artistry. Balancing moments of fragility with bold, experimental production, Hit Me Hard and Soft stands as her most personal and unified project to date.",
+      "release": "17th May 2024",
+      "price": "14.99",
+      "photos": "https://store.billieeilish.com/cdn/shop/files/HMHAS_CD.jpg?v=1754583152&width=1000",
+      "tracklist": [
+        "Skinny",
+        "Lunch",
+        "Chihiro",
+        "Birds of a feather",
+        "Wildflower",
+        "The greatest",
+        "L’amour de ma vie",
+        "The diner",
+        "Bittersuite",
+        "Blue"
+      ],
+      "genreIds": [
+        0
+      ],
+      "artistId": 8
+    },
+    {
+      "id": "2",
+      "title": "Rare",
+      "desc": "This album presents a polished yet deeply personal collection of songs that balance upbeat pop anthems with introspective ballads. The production blends shimmering synths, smooth rhythms, and modern pop arrangements, creating a sound that is both vibrant and vulnerable. Lyrically, it explores themes of self-worth, independence, healing, and emotional growth, capturing moments of resilience as well as fragility. With its mix of catchy hooks and heartfelt storytelling, the project highlights a confident artistic evolution while remaining honest and relatable.",
+      "release": "January 10, 2020",
+      "price": "13.48",
+      "photos": "https://cdn.hmv.com/r/w-480/p-webp/hmv/files/eb/eb0f68c9-a284-4933-9bb9-9ec214add426.jpg",
+      "tracklist": [
+        "Rare",
+        "Dance Again",
+        "Look at Her Now",
+        "Lose You to Love Me",
+        "Ring",
+        "Vulnerable",
+        "People You Know",
+        "Let Me Get Me",
+        "Crowded Room (feat. 6lack)",
+        "Kinda Crazy",
+        "Fun",
+        "Cut You Off",
+        "A Sweeter Place (feat. Kid Cudi)"
+      ],
+      "genreIds": [
+        0
+      ],
+      "artistId": 49
+    },
+    {
+      "id": "3",
+      "title": "I Said I Love You First",
+      "desc": " (Exclusive CD Zine) This album features a mix of catchy pop songs and emotional ballads, exploring themes of love, heartbreak, and self-reflection. The production is polished and modern, combining smooth instrumentation with contemporary pop beats that highlight the artist’s vocals. Throughout the album, the songs balance energetic, radio-friendly tracks with more tender, introspective moments, creating a cohesive listening experience that feels both personal and relatable. It captures the highs and lows of relationships while showcasing growth and emotional depth in the songwriting.",
+      "release": "September 3, 2025",
+      "price": "20.00",
+      "photos": "https://store.selenagomez.com/cdn/shop/files/1stIMAGEIZHO-Music-Product-Mock-06-SB7-02copy.png?v=1739490912&width=800",
+      "tracklist": [
+        " I Said I Love You First ",
+        " Younger And Hotter Than Me ",
+        " Call Me When You Break Up (Selena’s Edition) ",
+        " Ojos Tristes (with The Marías) ",
+        " Don’t Wanna Cry ",
+        " Sunset Blvd ",
+        " Cowboy ",
+        " Bluest Flame ",
+        " How Does It Feel To Be Forgotten ",
+        " Do You Wanna Be Perfect ",
+        " You Said You Were Sorry ",
+        " I Can’t Get Enough ",
+        " Don’t Take It Personally ",
+        " Scared Of Loving You "
+      ],
+      "genreIds": 0,
+      "artistId": 49
+    },
+    {
+      "id": "4",
+      "title": "Revival",
+      "desc": "This album is a vibrant exploration of love, self-discovery, and emotional resilience, blending infectious pop hooks with introspective ballads. Its production is sleek and contemporary, layering lush synths, rhythmic beats, and expressive vocals to create a sound that is both catchy and emotionally resonant. The songs navigate the highs and lows of relationships and personal growth, striking a balance between empowerment and vulnerability.",
+      "release": "October 9, 2015",
+      "price": "14.37",
+      "photos": "https://i1.sndcdn.com/artworks-000159071253-9mo1gg-t500x500.jpg",
+      "tracklist": [
+        "Revival",
+        "Kill Em with Kindness",
+        "Hands to Myself",
+        "Same Old Love",
+        "Sober",
+        "Good for You (featuring A$AP Rocky)",
+        "Camouflage",
+        "Me & the Rhythm",
+        "Survivors",
+        "Body Heat",
+        "Rise",
+        "Me & My Girls",
+        "Nobody",
+        "Perfect",
+        "Outta My Hands (Loco)",
+        "Cologne"
+      ],
+      "genreIds": 0,
+      "artistId": 49
+    },
+    {
+      "id": "5",
+      "title": "Live in Prague",
+      "desc": "Hans Zimmer – Live in Prague captures a monumental live performance, showcasing the composer’s most iconic cinematic scores performed by a full orchestra, choir, and band. The album presents a dynamic journey through his work, blending powerful, emotive themes with intricate arrangements and energetic interpretations. Each track brings the intensity and drama of his film compositions to life, offering an immersive experience that highlights Zimmer’s signature fusion of orchestral grandeur and modern sound design.",
+      "release": "November 3, 2017",
+      "price": "14.37",
+      "photos": "https://legatomusic.ru/nas/img/cdimg2/00/53/50/15_4.jpg",
+      "tracklist": [
+        "Driving",
+        "Discombobulate",
+        "Zoosters Breakout",
+        "Crimson Tide",
+        "Angels & Demons",
+        "The Wheat",
+        "The Battle",
+        "Elysium",
+        "Now We Are Free",
+        "Chevaliers de Sangreal",
+        "Circle of Life (Prelude)",
+        "King of Pride Rock (Reprise)",
+        "Captain Jack Sparrow",
+        "One Day",
+        "Up Is Down",
+        "He's a Pirate",
+        "You're So Cool",
+        "Main Theme",
+        "What Are You Going to Do When You're Not Saving the World?",
+        "Journey to the Line",
+        "Electro Suite",
+        "Why So Serious?",
+        "Like a Dog Chasing Cars",
+        "Why Do We Fall?",
+        "Introduce a Little Anarchy",
+        "The Fire Rises",
+        "Aurora",
+        "Day One",
+        "Cornfield Chase",
+        "No Time for Caution",
+        "Stay",
+        "Half Remembered Dream",
+        "Dream Is Collapsing",
+        "Mombasa",
+        "Time"
+      ],
+      "genreIds": 8,
+      "artistId": 23
+    },
+    {
+      "id": "6",
+      "title": "Love yourself: Answer",
+      "desc": "The album achieved massive commercial success, setting records for pre-order and first-week sales in South Korea, and becoming the first Korean album to receive RIAA certification in the U.S. It also debuted at number one on the Billboard 200 and spent over 100 weeks on the chart, solidifying its global impact. The album blends energetic pop tracks, emotional ballads, and introspective lyrics, exploring themes of self-love, heartbreak, and personal growth.",
+      "release": "August 24, 2018",
+      "price": "20.96",
+      "photos": "https://www.kpoppinkstore.com/cdn/shop/files/bts_love_yourself_620x.jpg?v=1739143655",
+      "tracklist": [
+        "Intro: Persona",
+        "Euphoria",
+        "Trivia: Just Dance",
+        "Serendipity",
+        "DNA",
+        "Dimple",
+        "Trivia: Love",
+        "Her",
+        "Singularity",
+        "Fake Love",
+        "The Truth Untold",
+        "Trivia: Seesaw",
+        "Epiphany",
+        "I’m Fine",
+        "IDOL",
+        "Answer: Love Myself"
+      ],
+      "genreIds": 3,
+      "artistId": 11
+    },
+    {
+      "id": "7",
+      "title": "You Never Walk Alone",
+      "desc": "",
+      "release": "October 10, 2016",
+      "price": "30.99",
+      "photos": "https://www.kpop.exchange/cdn/shop/products/BTS-You-Never-Walk-Alone-Left-Ver-KpopExchange.jpg?v=1633800069",
+      "tracklist": [
+        "Intro: Boy Meets Evil",
+        "Blood Sweat & Tears",
+        "Begin",
+        "Lie",
+        "Stigma",
+        "First Love",
+        "Reflection",
+        "MAMA",
+        "Awake",
+        "Lost",
+        "BTS Cypher Pt. 4",
+        "Am I Wrong",
+        "21st Century Girl",
+        "Two! Three! (Still Wishing There Will Be Better Days)",
+        "Interlude: Wings",
+        "Spring Day",
+        "Not Today",
+        "Outro: Wings",
+        "A Supplementary Story: You Never Walk Alone"
+      ],
+      "genreIds": 3,
+      "artistId": 11
+    },
+    {
+      "id": "8",
+      "title": "Map of the Soul: 7",
+      "desc": "The album became the best-selling in South Korea’s history, surpassing 5 million copies, and debuted at number one on the US Billboard 200 with 422,000 units in its first week. It set multiple records, including a Guinness World Record for best-selling album in South Korea, Platinum certification in the US, and was the first winner of IFPI’s Global Album All-Format Chart, while receiving critical acclaim for its introspective themes and diverse musical styles.",
+      "release": "February 21, 2020",
+      "price": "23.99",
+      "photos": "https://m.media-amazon.com/images/I/61Pj0N8bp2L._UF1000,1000_QL80_.jpg",
+      "tracklist": [
+        "Intro: Persona",
+        "Boy With Luv",
+        "Make It Right",
+        "Jamais Vu",
+        "Dionysus",
+        "Interlude: Shadow",
+        "Black Swan",
+        "Filter",
+        "My Time",
+        "Louder Than Bombs",
+        "On",
+        "UGH!",
+        "00:00 (Zero O’Clock)",
+        "Inner Child",
+        "Friends",
+        "Moon",
+        "Respect",
+        "We Are Bulletproof: the Eternal",
+        "Outro: Ego",
+        "On (Feat. Sia)"
+      ],
+      "genreIds": 3,
+      "artistId": 11
+    },
+    {
+      "id": "9",
+      "title": "AM",
+      "desc": "The album blends rock, R&B, and hip-hop-inspired rhythms, featuring sultry guitar riffs, deep basslines, and moody production. Lyrically, it explores themes of desire, late-night experiences, and complex relationships, delivering a darker, more seductive sound compared to previous works",
+      "release": "September 9, 2013",
+      "price": "14.99",
+      "photos": "https://m.media-amazon.com/images/I/61UINR8TtaL._UF894,1000_QL80_.jpg",
+      "tracklist": [
+        "Do I Wanna Know?",
+        "R U Mine?",
+        "One for the Road",
+        "Arabella",
+        "I Want It All",
+        "No. 1 Party Anthem",
+        "Mad Sounds",
+        "Fireside",
+        "Why'd You Only Call Me When You're High?",
+        "Snap Out of It",
+        "Knee Socks",
+        "I Wanna Be Yours"
+      ],
+      "genreIds": 1,
+      "artistId": 5
+    },
+    {
+      "id": "10",
+      "title": "Wishbone",
+      "desc": "This album marks a return to the emotionally charged and diaristic style that solidified Conan Gray's standing as a Gen Z pop tastemaker. Collaborating again with longtime producer Dan Nigro, Wishbone delves into themes of heartbreak, self-discovery, and emotional vulnerability. The album blends bold anthems with introspective moments, showcasing Gray's evolution in both sound and emotional depth.",
+      "release": "August 15, 2025",
+      "price": "13.99",
+      "photos": "https://m.media-amazon.com/images/I/71gYO8a58uL._UF1000,1000_QL80_.jpg",
+      "tracklist": [
+        "Actor",
+        "This Song",
+        "Vodka Cranberry",
+        "Romeo",
+        "My World",
+        "Class Clown",
+        "Nauseous",
+        "Caramel",
+        "Connell",
+        "Sunset Tower",
+        "Eleven Eleven",
+        "Care"
+      ],
+      "genreIds": 0,
+      "artistId": 16
+    },
+    {
+      "id": "13",
+      "title": "Parachutes",
+      "desc": "The album became a breakthrough for the band, reaching number one on the UK Albums Chart and receiving multi-platinum certifications in several countries. Its lead single became an international hit, topping charts in multiple regions, and the album helped the band earn a Mercury Prize nomination while solidifying their reputation as a defining act of 2000s alternative rock.",
+      "release": "July 10, 2000",
+      "price": "18.00",
+      "photos": "https://i.scdn.co/image/ab67616d0000b2739164bafe9aaa168d93f4816a",
+      "tracklist": [
+        "Don't Panic",
+        "Shiver",
+        "Spies",
+        "Sparks",
+        "Yellow",
+        "Everything's Not Lost",
+        "Life Is for Living",
+        "Faith",
+        "Talk",
+        "Parachutes",
+        "High Speed",
+        "We Never Change"
+      ],
+      "genreIds": [
+        0,
+        1
+      ],
+      "artistId": 15
+    },
+    {
+      "id": "14",
+      "title": "Short n’ Sweet",
+      "desc": "The album received critical acclaim for its confident lyrics and enjoyable music, though some critics noted the songwriting as serviceable and low-risk. Short n' Sweet topped the record charts in 18 countries and received certifications in 10 nations. It debuted at number one on the US Billboard 200 chart, marking Carpenter's first number one album. The album spent three consecutive weeks at the top spot, making it the second-longest running number one album of the year on the Billboard 200. As of September 2024, Short n' Sweet has been certified Platinum by the Recording Industry Association of America (RIAA).",
+      "release": "August 23, 2024",
+      "price": "13.98",
+      "photos": "https://www.islandrecords.com/cdn/shop/files/Mocks-CD.png?v=1738241346",
+      "tracklist": [
+        "Taste",
+        "Please Please Please",
+        "Good Graces",
+        "Sharpest Tool",
+        "Coincidence",
+        "Bed Chem",
+        "Espresso",
+        "Dumb & Poetic",
+        "Slim Pickins",
+        "Juno",
+        "Lie to Girls",
+        "Don’t Smile"
+      ],
+      "genreIds": 0,
+      "artistId": 47
+    },
+    {
+      "id": "15",
+      "title": "Evolution",
+      "desc": "EVOLution marked a departure from Carpenter's previous folk-pop style, embracing a more mature dance-pop sound. The album received positive reviews for its blend of heartfelt ballads and upbeat tracks, showcasing Carpenter's growth as an artist. Commercially, it debuted at number 28 on the US Billboard 200 chart and sold 11,500 copies in its first week.",
+      "release": "October 14, 2016",
+      "price": "30.00",
+      "photos": "https://i.ebayimg.com/00/s/NTAwWDUwMA==/z/cfMAAOSw4CFY7BnI/$_1.JPG?set_id=8800005007",
+      "tracklist": [
+        "On Purpose",
+        "Feels Like Loneliness",
+        "Thumbs",
+        "No Words",
+        "Run and Hide",
+        "Mirage",
+        "Don't Want It Back",
+        "All We Have Is Love",
+        "Smoke and Fire",
+        "Space"
+      ],
+      "genreIds": 0,
+      "artistId": 47
+    },
+    {
+      "id": "16",
+      "title": "My Everything",
+      "desc": "The album blends contemporary pop with elements of EDM, R&B, and hip-hop, showcasing strong vocal performances and versatile production. It explores themes of love, heartbreak, and empowerment, featuring both energetic anthems and emotional ballads that highlight Ariana Grande's range and artistry.",
+      "release": "August 2, 2014",
+      "price": "13.99",
+      "photos": "https://i.ebayimg.com/images/g/oLgAAeSwzL1oJ7q~/s-l1200.jpg",
+      "tracklist": [
+        "Intro",
+        "Problem (feat. Iggy Azalea)",
+        "One Last Time",
+        "Why Try",
+        "Break Free (feat. Zedd)",
+        "Best Mistake (feat. Big Sean)",
+        "Be My Baby (feat. Cashmere Cat)",
+        "Break Your Heart Right Back (feat. Childish Gambino)",
+        "Love Me Harder (with The Weeknd)",
+        "Just a Little Bit of Your Heart",
+        "Hands on Me (feat. A$AP Ferg)",
+        "My Everything",
+        "Bang Bang (with Jessie J and Nicki Minaj)",
+        "Only 1",
+        "You Don't Know Me"
+      ],
+      "genreIds": 0,
+      "artistId": 6
+    },
+    {
+      "id": "17",
+      "title": "Teatro d’ira: Vol. I",
+      "desc": "The second studio album. Following their victory at the Eurovision Song Contest 2021 with 'Zitti e buoni', the album gained significant popularity across Europe. It topped the Italian Albums Chart and was certified quintuple platinum by FIMI. The album also reached number one on the Finnish, Lithuanian, and Swedish album charts and entered the top ten in fourteen other territories",
+      "release": "March 21, 2021",
+      "price": "22.44",
+      "photos": "https://strgimgr.umico.az/sized/1680/793360-46495be6ebd4d7cf35cc1d1e0d35a8a1.jpg",
+      "tracklist": [
+        "Zitti e buoni",
+        "Coraline",
+        "Lividi sui gomiti",
+        "I Wanna Be Your Slave",
+        "In nome del padre",
+        "For Your Love",
+        "La paura del buio",
+        "Vent'anni"
+      ],
+      "genreIds": 1,
+      "artistId": 35
+    },
+    {
+      "id": "18",
+      "title": "Ten Tales",
+      "desc": "The album received critical acclaim and was a commercial success, reaching the top 10 in multiple countries. It produced several hit singles, including 'If I Ever Lose My Faith in You', which won a Grammy Award for Best Pop Vocal Performance, Male, and solidified Sting’s reputation as a leading solo artist.",
+      "release": "March 9, 1993",
+      "price": "40.87",
+      "photos": "https://imageprod.eu-central-1.linodeobjects.com/products/13685281/conversions/6458441d2c5e0-lg.jpg",
+      "tracklist": [
+        "If I Ever Lose My Faith in You",
+        "Love Is Stronger Than Justice (The Munificent Seven)",
+        "Fields of Gold",
+        "Heavy Cloud No Rain",
+        "She's Too Good for Me",
+        "Seven Days",
+        "Saint Augustine in Hell",
+        "It's Probably Me",
+        "Everybody Laughed But You",
+        "Shape of My Heart",
+        "Something"
+      ],
+      "genreIds": [
+        0,
+        1,
+        2
+      ],
+      "artistId": 51
+    },
+    {
+      "id": "19",
+      "title": "5-Star",
+      "desc": "The album, with all tracks written and produced by the group's in-house production team 3Racha, explores their growth and identity. The lead single, 'S-Class', is a powerful hip-hop track that emphasizes their distinctiveness, while other songs like 'Hall of Fame' express their ambition to leave a lasting mark. The album is a testament to Stray Kids' distinctive sound and their creative control as self-producing artists.",
+      "release": "June 2, 2023",
+      "price": "22.00",
+      "photos": "https://upload.wikimedia.org/wikipedia/en/5/52/Stray_Kids_-_5-Star.png",
+      "tracklist": [
+        "Hall of Fame",
+        "S-Class",
+        "ITEM",
+        "Super Bowl",
+        "TOPLINE (Feat. Tiger JK)",
+        "DLC",
+        "GET LIT",
+        "Collision",
+        "FNF",
+        "Youtiful",
+        "THE SOUND (Korean Ver.)",
+        "Mixtape : Time Out"
+      ],
+      "genreIds": [
+        3
+      ],
+      "artistId": 52
+    },
+    {
+      "id": "21",
+      "title": "Rock-Star",
+      "desc": "'樂-STAR (ROCK-STAR)' is an energetic EP that celebrates the 'joy' and unbridled spirit of a 'rock star' lifestyle. The title cleverly combines the Korean character for 'joy '(락) with 'rock', showcasing the album's dual meaning. Led by the powerful single 'LALALALA', the album's tracks range from explosive anthems to more emotional songs, highlighting Stray Kids' versatility and creative freedom as self-producing artists. It's a testament to the group's rock star attitude and their commitment to making music that is both sonically powerful and thematically rich.",
+      "release": "November 10, 2023",
+      "price": "25.00",
+      "photos": "https://upload.wikimedia.org/wikipedia/en/5/51/Stray_Kids_-_Rock-Star.png",
+      "tracklist": [
+        "MEGAVERSE",
+        "LALALALA (락 (樂))",
+        "BLIND SPOT (사각지대)",
+        "COMFLEX",
+        "Cover Me (가려줘)",
+        "Leave",
+        "Social Path (Feat. LiSA) (Korean Ver.)",
+        "LALALALA (Rock Ver.)"
+      ],
+      "genreIds": [
+        3
+      ],
+      "artistId": 52
+    },
+    {
+      "id": "22",
+      "title": "Get Rich or Die Tryin’",
+      "desc": "This album is a landmark in hip-hop, known for its raw, street-oriented narratives and commercial appeal. The album's central themes revolve around Curtis Jackson's (50 Cent's) real-life experiences: his past as a drug dealer, surviving a near-fatal shooting, and his determination to succeed in the music industry. The tracks often showcase a blend of braggadocious confidence, street-level storytelling, and a sense of vulnerability born from his struggles.",
+      "release": "February 6, 2003",
+      "price": "11.60",
+      "photos": "https://cdn.hmv.com/r/w-640/hmv/files/ff/ffccbbe2-855d-44c2-ad7a-8ff7936547b6.jpg",
+      "tracklist": [
+        "Intro",
+        "What Up Gangsta",
+        "Patiently Waiting",
+        "Many Men (Wish Death)",
+        "In Da Club",
+        "High All the Time",
+        "Heat",
+        "If I Can't",
+        "Blood Hound",
+        "Back Down",
+        "P.I.M.P.",
+        "Like My Style",
+        "Poor Lil Rich",
+        "21 Questions",
+        "Don't Push Me",
+        "Gotta Make It to Heaven",
+        "Wanksta",
+        "U Not Like Me",
+        "Life's On The Line",
+        "P.I.M.P. (Snoop Dogg Remix)"
+      ],
+      "genreIds": [
+        5,
+        9
+      ],
+      "artistId": 1
+    },
+    {
+      "id": "23",
+      "title": "Thriller ",
+      "desc": "This album is a landmark album that redefined pop music and culture. Produced by Quincy Jones, the album masterfully blends a variety of genres, including pop, funk, R&B, rock, and post-disco. Its immense success was driven by its ability to appeal to a wide range of audiences, breaking down racial barriers in the music industry, particularly on MTV.",
+      "release": "November 30, 1982",
+      "price": "20.00",
+      "photos": "https://www.shopmichaeljackson.com/cdn/shop/files/Y4CDMJ016.png?v=1726169625",
+      "tracklist": [
+        "Wanna Be Startin' Somethin'",
+        "Baby Be Mine",
+        "The Girl Is Mine",
+        "Thriller",
+        "Beat It",
+        "Billie Jean",
+        "Human Nature",
+        "P.Y.T. (Pretty Young Thing)",
+        "The Lady in My Life"
+      ],
+      "genreIds": [
+        0,
+        1,
+        6
+      ],
+      "artistId": 37
+    },
+    {
+      "id": "24",
+      "title": "Bad",
+      "desc": "This album  is the seventh studio album by Michael Jackson, and the follow-up to his blockbuster 'Thriller'. While it didn't surpass 'Thriller' in sales, it was a massive success in its own right, cementing Jackson's status as a global pop icon. The album is characterized by a more aggressive, edgier, and self-assured sound, reflecting a more mature and defiant Michael Jackson.",
+      "release": "August 31, 1987",
+      "price": "18.98",
+      "photos": "https://strgimgr.umico.az/sized/840/818869-ef635abb492009835aeac159fc5731ca.jpg",
+      "tracklist": [
+        "Bad",
+        "The Way You Make Me Feel",
+        "Speed Demon",
+        "Liberian Girl",
+        "Just Good Friends",
+        "Another Part of Me",
+        "Man in the Mirror",
+        "I Just Can't Stop Loving You",
+        "Dirty Diana",
+        "Smooth Criminal",
+        "Leave Me Alone"
+      ],
+      "genreIds": [
+        0,
+        1,
+        6
+      ],
+      "artistId": 37
+    },
+    {
+      "id": "25",
+      "title": "Friendship ",
+      "desc": "This album is a unique and notable album in Ray Charles's discography. It stands out because it is a full-fledged country music album, and more specifically, a collaboration album featuring duets with some of the biggest names in the country and pop music scenes of the time. The album was a commercial success, reaching #1 on the Billboard Top Country Albums chart.",
+      "release": "August, 1984",
+      "price": "10.40",
+      "photos": "https://undergroundrecordshop.es/wp-content/uploads/2025/07/Ray-Charles-e1751532532729.png",
+      "tracklist": [
+        "Two Old Cats Like Us",
+        "This Old Heart (Is Gonna Rise Again)",
+        "We Didn't See a Thing",
+        "Who Cares",
+        "Rock and Roll Shoes",
+        "Friendship",
+        "It Ain't Gonna Worry My Mind",
+        "Little Hotel Room",
+        "Crazy Old Soldier",
+        "Seven Spanish Angels",
+        "Everybody Has the Blues",
+        "Baby Grand"
+      ],
+      "genreIds": [
+        4,
+        6
+      ],
+      "artistId": 45
+    },
+    {
+      "id": "26",
+      "title": "Mayhem",
+      "desc": "Mayhem is the eighth studio album by American singer-songwriter and record producer Lady Gaga. It was released by Streamline and Interscope Records. This marks the longest gap between album releases in Gaga’s entire career, and precedes Chromatica (2020), which was released over four years earlier. Leading up to its release, the album was temporarily referred to as LG7. Gaga collaborated with producers Watt, Cirkut, and Gesaffelstein, while also enlisting her fiancé, Michael Polansky, as a co-writer on several tracks.",
+      "release": "March 7, 2025",
+      "price": "35.50",
+      "photos": "https://d26olvxuieoyaa.cloudfront.net/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/602475451044.jpg",
+      "tracklist": [
+        "Disease",
+        "Abracadabra",
+        "Garden of Eden",
+        "Perfect Celebrity",
+        "Vanish Into You",
+        "Killah",
+        "Zombieboy",
+        "LoveDrug",
+        "How Bad Do U Want Me",
+        "Don't Call Tonight",
+        "Shadow Of A Man",
+        "The Beast",
+        "Blade of Grass",
+        "Die With A Smile"
+      ],
+      "genreIds": [
+        0,
+        5
+      ],
+      "artistId": 31
+    },
+    {
+      "id": "27",
+      "title": "Aerosmith",
+      "desc": "The album is a raw, gritty, and blues-infused take on hard rock, heavily influenced by British rock bands like the Rolling Stones and Led Zeppelin. The overarching themes of the album are classic rock and roll staples: teenage angst, a rebellious spirit, love, and a desire to break out and make it big. The production is relatively simple and unpolished, which gives the album an authentic, garage-rock feel that captured the raw energy of the band's live performances.",
+      "release": "January 5, 1973",
+      "price": "14.00",
+      "photos": "https://i.ebayimg.com/images/g/dz4AAOxy-WxTF1bp/s-l640.jpg",
+      "tracklist": [
+        "Make It",
+        "Somebody",
+        "Dream On",
+        "One Way Street",
+        "Mama Kin",
+        "Write Me a Letter",
+        "Movin' Out",
+        "Walkin' the Dog"
+      ],
+      "genreIds": [
+        1
+      ],
+      "artistId": 3
+    },
+    {
+      "id": "28",
+      "title": "Toys in the Attic",
+      "desc": "This album is the third studio album by Aerosmith and is widely considered their commercial and creative breakthrough. The album solidified their reputation as a powerhouse hard rock band with a distinctive blend of blues, funk, and swagger. It was a massive commercial success, selling millions of copies and producing some of their most iconic hits.",
+      "release": "April 8, 1975",
+      "price": "20.00",
+      "photos": "https://m.media-amazon.com/images/I/81fpy+K6hnL._UF1000,1000_QL80_.jpg",
+      "tracklist": [
+        "Toys in the Attic",
+        "Uncle Salty",
+        "Adam's Apple",
+        "Walk This Way",
+        "Big Ten Inch Record",
+        "Sweet Emotion",
+        "No More No More",
+        "Round and Round",
+        "You See Me Crying"
+      ],
+      "genreIds": [
+        1
+      ],
+      "artistId": 3
+    },
+    {
+      "id": "29",
+      "title": "Ella and Louis",
+      "desc": "The album's main theme is a relaxed, intimate, and joyous exploration of classic American standards. The chemistry between Fitzgerald and Armstrong is the heart of the album. Ella's pristine, agile, and technically perfect voice provides a beautiful contrast to Louis's gritty, gravelly, and instantly recognizable tone. The album is a testament to their mutual respect and easy rapport, with their playful banter and improvisational calls and responses.",
+      "release": "October, 1956",
+      "price": "15.99",
+      "photos": "https://store.ververecords.com/cdn/shop/products/gershwin.png?v=1622771333",
+      "tracklist": [
+        "Can't We Be Friends",
+        "Isn't This a Lovely Day",
+        "Moonlight in Vermont",
+        "They Can't Take That Away from Me",
+        "Under a Blanket of Blue",
+        "Tenderly",
+        "A Foggy Day",
+        "Stars Fell on Alabama",
+        "Cheek to Cheek",
+        "The Nearness of You",
+        "April in Paris"
+      ],
+      "genreIds": [
+        2
+      ],
+      "artistId": 34
+    },
+    {
+      "id": "30",
+      "title": "Ride the Lightning",
+      "desc": "The album's themes are dark and often deal with death, war, punishment, madness, and the supernatural. The lyrics are more introspective and philosophical than their previous work, exploring concepts of life and death, and the injustices of war and human nature.",
+      "release": "July 27, 1984",
+      "price": "17.89",
+      "photos": "https://upload.wikimedia.org/wikipedia/en/f/f4/Ridetl.png",
+      "tracklist": [
+        "Fight Fire with Fire",
+        "Ride the Lightning",
+        "For Whom the Bell Tolls",
+        "Fade to Black",
+        "Trapped Under Ice",
+        "Escape",
+        "Creeping Death",
+        "The Call of Ktulu"
+      ],
+      "genreIds": [
+        7
+      ],
+      "artistId": 36
+    },
+    {
+      "id": "31",
+      "title": "...And Justice for All",
+      "desc": "The central theme of the album is political and social injustice. The songs are a scathing commentary on the failings of legal, governmental, and social systems. The album is a dark and cynical look at the world, filled with a sense of moral outrage and a lack of hope for humanity's future.",
+      "release": "August 25, 1988",
+      "price": "13.50",
+      "photos": "https://m.media-amazon.com/images/I/81Guo2jMPGL._UF1000,1000_QL80_.jpg",
+      "tracklist": [
+        "Blackened",
+        "...And Justice for All",
+        "Eye of the Beholder",
+        "One",
+        "The Shortest Straw",
+        "Harvester of Sorrow",
+        "The Frayed Ends of Sanity",
+        "To Live Is to Die",
+        "Dyers Eve"
+      ],
+      "genreIds": [
+        7
+      ],
+      "artistId": 36
+    },
+    {
+      "id": "32",
+      "title": "Everybody",
+      "desc": "The central themes of the album are universal: the search for self-worth, the struggle against prejudice, and the importance of unity. Logic uses the album as a platform to address topics like race, anxiety, and depression, often through a lens of hope and positivity. The album's core message is one of acceptance and the idea that all people, regardless of their background, are 'everybody'.",
+      "release": "May 5, 2017",
+      "price": "19.15",
+      "photos": "https://m.media-amazon.com/images/I/A146VmzTYGL._UF1000,1000_QL80_.jpg",
+      "tracklist": [
+        "Hallelujah",
+        "Everybody",
+        "Confess",
+        "Killing Spree",
+        "Take It Back",
+        "America",
+        "Ink Blot",
+        "Mos Definitely",
+        "Waiting Room",
+        "1-800-273-8255",
+        "Anziety",
+        "Black SpiderMan",
+        "AfricAryaN"
+      ],
+      "genreIds": [
+        5,
+        9
+      ],
+      "artistId": 33
+    },
+    {
+      "id": "33",
+      "title": "YSIV",
+      "desc": "The central themes of this album are a celebration of hip-hop, Logic's journey to fame, and his confidence as an artist. The album is filled with references to classic artists like the Wu-Tang Clan, Nas, and A Tribe Called Quest, and it features a boom-bap production style reminiscent of the 90s.",
+      "release": "September 28, 2018",
+      "price": "15.00",
+      "photos": "https://d28onjpxqm95em.cloudfront.net/eyJidWNrZXQiOiJtZXJjaGJhci1pbWFnZXMiLCJrZXkiOiJwcm9kdWN0L2NkaWZpZWQvdXBjLzI0LzYwMjU2Nzk5MjQ5My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE0MDAsImZpdCI6ImNvdmVyIn19fQ==?format=webp",
+      "tracklist": [
+        "Thank You",
+        "Everybody Dies",
+        "The Return",
+        "The Glorious Five",
+        "One Day",
+        "Wu Tang Forever",
+        "100 Miles and Running",
+        "Ordinary Day",
+        "YSIV",
+        "Street Dreams II",
+        "The Adventures of Stoney Bob",
+        "Legacy",
+        "Iconic",
+        "Last Call"
+      ],
+      "genreIds": [
+        5,
+        9
+      ],
+      "artistId": 33
+    },
+    {
+      "id": "34",
+      "title": "Sour",
+      "desc": "The album is a raw, emotional, and authentic exploration of teenage heartbreak. The themes revolve around the pain of a breakup, the pangs of jealousy, insecurity, and the rollercoaster of emotions that come with young love. Rodrigo's songwriting is praised for its relatability and candidness, as she captures the specific, often messy, feelings of a young person going through a difficult time.",
+      "release": "May 21, 2021",
+      "price": "13.98",
+      "photos": "https://m.media-amazon.com/images/I/71Te1V90YDL._UF1000,1000_QL80_.jpg",
+      "tracklist": [
+        "brutal",
+        "traitor",
+        "drivers license",
+        "1 step forward, 3 steps back",
+        "deja vu",
+        "good 4 u",
+        "enough for you",
+        "happier",
+        "jealousy, jealousy",
+        "favorite crime",
+        "hope ur ok"
+      ],
+      "genreIds": [
+        0,
+        1
+      ],
+      "artistId": 42
+    },
+    {
+      "id": "35",
+      "title": "Guts",
+      "desc": "The central themes of the album are the anxieties and insecurities of young adulthood. Rodrigo delves into the pressures of fame, the struggle with self-doubt, the complexities of relationships, and the bittersweet transition from a teenager to a young woman. The album title itself, 'Guts', is a reflection of her willingness to be vulnerable and raw in her songwriting, exposing her inner thoughts and fears to the world.",
+      "release": "September 8, 2023",
+      "price": "14.00",
+      "photos": "https://spindizzyrecords.com/cdn/shop/files/Olivia_Rodrigo_-_GUTS_-_CD_c3ba5f76-deb6-467d-9772-0eed3831623e.jpg?v=1688138515&width=1946",
+      "tracklist": [
+        "all-american bitch",
+        "bad idea right?",
+        "vampire",
+        "lacy",
+        "ballad of a homeschooled girl",
+        "making the bed",
+        "logical",
+        "get him back!",
+        "love is embarrassing",
+        "the grudge",
+        "pretty isn't pretty",
+        "teenage dream"
+      ],
+      "genreIds": [
+        0,
+        1
+      ],
+      "artistId": 42
+    },
+    {
+      "id": "36",
+      "title": "Back to Black",
+      "desc": "The central theme of the album is heartbreak and the painful aftermath of a tumultuous relationship. Winehouse's lyrics are brutally honest, raw, and often self-deprecating, exploring themes of addiction, self-destruction, loss, and the devastating cycle of a toxic romance. Her distinctive voice—rich, soulful, and full of emotion—is the centerpiece, giving each song a powerful, lived-in authenticity.",
+      "release": "October 27, 2006",
+      "price": "17.00",
+      "photos": "https://m.media-amazon.com/images/I/71Y55FU5VGL.jpg",
+      "tracklist": [
+        "Rehab",
+        "You Know I'm No Good",
+        "Me & Mr Jones",
+        "Just Friends",
+        "Back to Black",
+        "Love Is a Losing Game",
+        "Tears Dry on Their Own",
+        "Wake Up Alone",
+        "Some Unholy War",
+        "He Can Only Hold Her",
+        "Addicted"
+      ],
+      "genreIds": [
+        2,
+        4,
+        6
+      ],
+      "artistId": 4
+    },
+    {
+      "id": "37",
+      "title": "Lioness",
+      "desc": "(Lioness: Hidden Treasures) The album was released less than five months after her death and serves as a tribute to her immense talent and legacy. It was compiled by her long-time friends and producers, Salaam Remi and Mark Ronson, who aimed to provide fans with a glimpse into her creative process and to showcase the breadth of her musical ability beyond her well-known albums.",
+      "release": "December 2, 2011",
+      "price": "17.50",
+      "photos": "https://shop.islandrecords.co.uk/cdn/shop/files/CD_front_069d868e-d2eb-4ca8-bad0-db56154b4aa3.jpg?v=1745619339&width=1080",
+      "tracklist": [
+        "Our Day Will Come",
+        "Between the Cheats",
+        "Tears Dry on Their Own",
+        "Wake Up Alone",
+        "Will You Still Love Me Tomorrow?",
+        "Valerie",
+        "Like Smoke",
+        "The Girl from Ipanema",
+        "Half Time",
+        "Best Friends, Right?",
+        "Body and Soul",
+        "A Song for You"
+      ],
+      "genreIds": [
+        2,
+        4,
+        6
+      ],
+      "artistId": 4
+    },
+    {
+      "id": "38",
+      "title": "Invasion of Privacy",
+      "desc": "The central themes of the album are authenticity, confidence, and a defiant embrace of her past. Cardi B's lyrics are known for their brash honesty, humor, and a swagger that is both relatable and larger than life. The album's production is a vibrant and diverse mix of trap, Latin trap, and pop, with a sound that is both modern and instantly recognizable.",
+      "release": "April 6, 2018",
+      "price": "16.00",
+      "photos": "https://lastfm.freetls.fastly.net/i/u/500x500/e75d6a3d4a858d9617cbbd4c653416e1.jpg",
+      "tracklist": [
+        "Get Up 10",
+        "Drip",
+        "Bickenhead",
+        "Bodak Yellow",
+        "Be Careful",
+        "Best Life",
+        "I Like It",
+        "Ring",
+        "Money Bag",
+        "Bartier Cardi",
+        "She Bad",
+        "Thru Your Phone",
+        "I Do"
+      ],
+      "genreIds": [
+        0,
+        5,
+        9
+      ],
+      "artistId": 12
+    },
+    {
+      "id": "39",
+      "title": "MAGIC MAN",
+      "desc": "The album marks a significant artistic evolution for Wang, as it delves into a darker, more theatrical, and rock-influenced sound compared to his previous pop and R&B work. The album is a conceptual journey, with Wang adopting the persona of a 'Magic Man' who explores themes of duality, desire, and self-discovery. The CD version of the album, particularly the 'Blue' version, comes with a specific tracklist and a visual aesthetic that reinforces the album's mood.",
+      "release": "September 9, 2022",
+      "price": "20.90",
+      "photos": "https://i.discogs.com/a29DsPRNc0kH5IbfTixX2SkyQOOkpVpENYN7P-nAU2w/rs:fit/g:sm/q:90/h:600/w:510/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NTY5/NTY4LTE2NzgzOTg4/NjYtMzkxNy5qcGVn.jpeg",
+      "tracklist": [
+        "Blow",
+        "Cruel",
+        "Champagne Cool",
+        "Go Ghost",
+        "Drive It Like You Stole It",
+        "Come Alive",
+        "Just Like Magic",
+        "All The Way",
+        "Dopamine",
+        "Blue"
+      ],
+      "genreIds": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "artistId": 26
+    },
+    {
+      "id": "40",
+      "title": "MAGIC MAN 2",
+      "desc": "The album is a follow-up to Wang's 2022 solo album MAGIC MAN, which was a raw and dramatic alt-rock effort inspired by the artist's experiences with burnout. MAGICMAN 2, a different kind of confession, expands the thematic scope of the man behind the pop persona. 'People see Jackson Wang, my audience sees me, but how do I really feel? I didn't even know that,' says Wang. 'This album is all about how I feel in everything—in reality, in society, in industry.' MAGICMAN 2 is divided into four chapters, meant to take the listener on an emotional journey through 'manic highs', 'losing control', 'realisation' and 'acceptance', explains Wang.",
+      "release": "July 18, 2025",
+      "price": "18.88",
+      "photos": "https://jackson-wang.com/cdn/shop/files/2f1a44e596b142a9f6ecbb199d105d35.png?v=1745877686&width=1946",
+      "tracklist": [
+        "High Alone",
+        "Not For Me",
+        "Access",
+        "BUCK",
+        "GBAD",
+        "Hate to Love",
+        "One Time",
+        "Everything",
+        "Dear:",
+        "Sophie Ricky",
+        "Made Me a Man"
+      ],
+      "genreIds": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "artistId": 26
+    },
+    {
+      "id": "41",
+      "title": "Studio Ghibli Music",
+      "desc": "'Joe Hisaishi: A Symphonic Celebration: Music from the Studio Ghibli Films of Hayao Miyazaki' is a live album that captures the magic of a series of concerts where composer Joe Hisaishi conducted the Royal Philharmonic Orchestra at Wembley's OVO Arena. The album is not a new studio recording but rather a live performance of some of the most beloved musical pieces from the films of Studio Ghibli, all of which were scored by Hisaishi for the films directed by Hayao Miyazaki. The album's main theme is a grand, symphonic celebration of the decades-long creative partnership between Hisaishi and Miyazaki. The music takes listeners on a journey through the fantastical worlds of Ghibli's most iconic films, evoking feelings of wonder, adventure, melancholy, and hope. ",
+      "release": "June 30, 2023",
+      "price": "35.00",
+      "photos": "https://cdn.hmv.com/r/w-1280/p-webp/hmv/files/a2/a2cbbca2-bc32-47ae-9ae1-c2eb0cb6c022.jpg",
+      "tracklist": [
+        "Nausicaä Of The Valley Of The Wind",
+        "Kiki's Delivery Service",
+        "Princess Mononoke",
+        "The Wind Rises",
+        "Ponyo On The Cliff By The Sea",
+        "Castle In The Sky",
+        "Porco Rosso",
+        "Howl's Moving Castle",
+        "Spirited Away",
+        "My Neighbor Totoro"
+      ],
+      "genreIds": [
+        8
+      ],
+      "artistId": 53
+    },
+    {
+      "id": "42",
+      "title": "Beautiful Chaos",
+      "desc": "The central theme of the album is the acceptance of imperfection and the beauty found in life's unpredictable moments. The lyrics explore themes of self-confidence, embracing your flaws, navigating complex relationships, and finding strength in vulnerability. The album is a mix of high-energy pop anthems and more introspective, personal tracks, all delivered with the group's powerful vocal performances and polished production.",
+      "release": "June 27, 2025",
+      "price": "25.60",
+      "photos": "https://cdn.hmv.com/r/w-1280/p-webp/hmv/files/dc/dc49ac3d-0974-4fc1-89f7-b519e09f1a32.jpg",
+      "tracklist": [
+        "Gnarly",
+        "Gabriela",
+        "Gameboy",
+        "Mean Girls",
+        "M.I.A."
+      ],
+      "genreIds": [
+        0,
+        3
+      ],
+      "artistId": 29
+    },
+    {
+      "id": "43",
+      "title": "Talk Memory",
+      "desc": "The album's main theme, as the title suggests, is memory. The songs are structured like a journey through different emotional landscapes, evoking feelings of nostalgia, melancholy, reflection, and even a sense of cinematic tension. The band, now a trio, showcases their incredible musicianship and chemistry, with a focus on intricate compositions and improvisation. They are joined by a number of collaborators, including the legendary Brazilian composer Arthur Verocai, harpist Brandee Younger, and producer Floating Points, who all contribute to the album's rich and expansive sound.",
+      "release": "October 8, 2021",
+      "price": "18.00",
+      "photos": "https://f4.bcbits.com/img/a0196386795_16.jpg",
+      "tracklist": [
+        "Signal From the Noise",
+        "Unfolding (Momentum 77)",
+        "City of Stone",
+        "Beside April",
+        "Love Proceeding",
+        "Timid, Intimidating",
+        "Talk Meaning"
+      ],
+      "genreIds": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "artistId": 7
+    },
+    {
+      "id": "44",
+      "title": "IV",
+      "desc": "The central themes of the album revolve around love, longing, and the complexities of human relationships, often explored through a melancholic and soulful lens. The album is less of a cohesive concept and more of a showcase of the band's versatility and their ability to create compelling music with a variety of artists. The production is lush and polished, with a focus on creating a vintage, warm, and analog sound.",
+      "release": "July 8, 2016",
+      "price": "16.98",
+      "photos": "https://m.media-amazon.com/images/I/71sHvpZpxZL._UF1000,1000_QL80_.jpg",
+      "tracklist": [
+        "And That Too.",
+        "Speaking Gently",
+        "Time Moves Slow",
+        "Confessions Part II",
+        "Lavender",
+        "Chompy's Paradise",
+        "In Your Eyes",
+        "Structure No. 3",
+        "Speaking of the End",
+        "Hyssop of Love",
+        "Cashmere"
+      ],
+      "genreIds": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "artistId": 7
+    },
+    {
+      "id": "45",
+      "title": "Mid Spiral",
+      "desc": "The album that explores themes of chaos, order, and growth through their signature instrumental sound, blended with hip-hop, neo-soul, and psychedelic influences, and augmented by additional musicians to create a more expansive and deeply collaborative soundscape. The project originated from intense studio sessions, allowing the trio to channel personal and global shifts into three distinct moods, resulting in a more mature and cohesive, yet still adventurous, musical offering. ",
+      "release": "July 30, 2024",
+      "price": "20.74",
+      "photos": "https://recordstore.co.uk/cdn/shop/files/BBNG_Mid_Sprial_CD2.jpg?v=1747782928&width=1200",
+      "tracklist": [
+        "Eyes On Me",
+        "Take Me With You",
+        "Weird & Wonderful",
+        "Mid Spiral",
+        "Last Laugh",
+        "Your Soul & Mine",
+        "Playgroup",
+        "Juan's World",
+        "Taco Taco",
+        "Sétima Regra",
+        "Sunday Afternoon's Dream",
+        "Rewind Your Mind",
+        "First Love",
+        "Audacia",
+        "Celestial Hands",
+        "Ways of Seeing",
+        "White Light",
+        "Best Left Unsolved (Bonus Track)"
+      ],
+      "genreIds": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "artistId": 7
+    },
+    {
+      "id": "46",
+      "title": "Harry Potter",
+      "desc": "The soundtrack for the film Harry Potter and the Philosopher's Stone, composed by the legendary John Williams. This score is arguably one of the most iconic film soundtracks of all time, as it was the first musical introduction to the magical world created by J.K. Rowling. Williams, known for his work on films like Star Wars and E.T., crafted a score that perfectly captures the sense of wonder, adventure, and whimsy of the wizarding world.",
+      "release": "October 29, 2001",
+      "price": "12.00",
+      "photos": "https://cdn.hmv.com/r/w-1280/p-webp/hmv/files/65/659dc3f2-66e2-4c3c-b5f3-37cfb6081662.jpg",
+      "tracklist": [
+        "Prologue",
+        "Harry's Wondrous World",
+        "The Arrival of Baby Harry",
+        "Visit to the Zoo and Letters from Hogwarts",
+        "Diagon Alley and The Gringotts Vaults",
+        "Platform Nine and Three-Quarters and The Journey to Hogwarts",
+        "Entry into the Great Hall and The Banquet",
+        "Mr. Longbottom Flies",
+        "Hogwarts Forever! and The Moving Stairs",
+        "The Norwegian Ridgeback and A Change of Season",
+        "The Quidditch Match",
+        "Christmas at Hogwarts",
+        "The Invisibility Cloak and The Library Scene",
+        "Fluffy's Harp",
+        "In the Devil's Snare and The Keys",
+        "The Chess Game",
+        "The Face of Voldemort",
+        "Harry's Triumph",
+        "Leaving Hogwarts",
+        "Hedwig's Theme"
+      ],
+      "genreIds": [
+        8
+      ],
+      "artistId": 27
+    },
+    {
+      "id": "47",
+      "title": "Master of Reality",
+      "desc": "The central themes of the album are a mix of dark fantasy, war, environmentalism, and a cynical view of religion. The lyrics, primarily written by bassist Geezer Butler, are apocalyptic and often full of despair. The album's sound is characterized by Tony Iommi's famously low-tuned guitar, Bill Ward's thunderous drumming, and the raw, powerful vocals of Ozzy Osbourne.",
+      "release": "July 21, 1971",
+      "price": "19.00",
+      "photos": "https://m.media-amazon.com/images/I/81oOdDIoGxL._UF894,1000_QL80_.jpg",
+      "tracklist": [
+        "Sweet Leaf",
+        "After Forever",
+        "Embryo",
+        "Children of the Grave",
+        "Orchid",
+        "Lord of This World",
+        "Solitude",
+        "Into the Void"
+      ],
+      "genreIds": [
+        7
+      ],
+      "artistId": 9
+    },
+    {
+      "id": "48",
+      "title": "Chet Baker Sings",
+      "desc": "The central theme of the album is love, loss, and the bittersweet emotions that come with relationships. Baker's vocal style is not about technical power or range but rather about vulnerability and a quiet, understated sincerity. His voice, a soft and delicate tenor, is often compared to his trumpet playing—smooth, graceful, and full of emotion. The album's instrumentation is sparse and elegant, with a simple piano, bass, and drums, which perfectly complements Baker's gentle delivery.",
+      "release": "1954",
+      "price": "12.21",
+      "photos": "https://legatomusic.ru/nas/img/cdimg2/00/09/71/74.jpg",
+      "tracklist": [
+        "That Old Feeling",
+        "It's Always You",
+        "I've Never Been in Love Before",
+        "My Ideal",
+        "I Get Along Without You Very Well",
+        "The Thrill Is Gone",
+        "Let's Get Lost",
+        "You Don't Know What Lovin' Is",
+        "I'm Thru with Love",
+        "Symphony",
+        "There Will Never Be Another You",
+        "These Foolish Things (Remind Me of You)",
+        "Time After Time",
+        "You're Driving Me Crazy",
+        "My Funny Valentine",
+        "I Fall in Love Too Easily"
+      ],
+      "genreIds": [
+        2
+      ],
+      "artistId": 13
+    },
+    {
+      "id": "49",
+      "title": "KPop Demon Hunters",
+      "desc": "The songs are performed by the fictional groups from the film, HUNTR/X and the Saja Boys, as well as contributions from real-world artists like TWICE and MeloMance. The central theme of the soundtrack is the powerful blend of pop music and action. The music serves as both the backdrop for the film's fight sequences and the emotional core of its characters. The album successfully captures the bright, dynamic, and diverse nature of the K-pop genre, ranging from bubblegum pop to fierce, hard-hitting anthems.",
+      "release": "August 22, 2025",
+      "price": "22.00",
+      "photos": "https://images-na.ssl-images-amazon.com/images/I/513Fdeh2cuL._AC_UL600_SR600,600_.jpg",
+      "tracklist": [
+        "Takedown",
+        "How It's Done",
+        "Soda Pop",
+        "Golden",
+        "Strategy",
+        "Your Idol",
+        "Free",
+        "What It Sounds Like",
+        "Love, Maybe",
+        "Path",
+        "Score Suite"
+      ],
+      "genreIds": [
+        3
+      ],
+      "artistId": 17
+    },
+    {
+      "id": "50",
+      "title": "In the Lonely Hour",
+      "desc": "The central theme of the album is unrequited love and the pain of loneliness. Smith has stated that the album's songs are all about a love that was never returned, and this sense of longing and heartbreak is palpable throughout the record. The album’s sound is a sophisticated blend of classic soul, pop, and R&B, with lush string arrangements, gospel choirs, and a focus on Smith's powerful and emotive vocals.",
+      "release": "May 26, 2014",
+      "price": "16.50",
+      "photos": "https://upload.wikimedia.org/wikipedia/ru/f/f4/Sam_Smith_In_the_Lonely_Hour.jpg",
+      "tracklist": [
+        "Money on My Mind",
+        "Stay with Me",
+        "Leave Your Lover",
+        "I'm Not the Only One",
+        "I've Told You Now",
+        "Like I Can",
+        "Restart",
+        "Nirvana",
+        "Latching",
+        "La La La",
+        "Make It to Me"
+      ],
+      "genreIds": [
+        0,
+        4,
+        6
+      ],
+      "artistId": 48
+    },
+    {
+      "id": "51",
+      "title": "Exist O.ver",
+      "desc": "The central themes of the album revolve around love and the complexities of human relationships. The songs explore various stages and facets of a relationship, from the intoxicating start to the painful end, all delivered with a sophisticated and emotional depth. The album's production is smooth and polished, with a focus on creating a sensual and atmospheric soundscape that perfectly complements the members' smooth vocals and harmonies.",
+      "release": "July 10, 2023",
+      "price": "18.63",
+      "photos": "https://www.kpopusaonline.com/wp-content/uploads/2023/06/exo-exist-o-min.png",
+      "tracklist": [
+        "Cream Soda",
+        "Regret It",
+        "Hear Me Out",
+        "Private Party",
+        "Cinderella",
+        "No Matter",
+        "Love Fool",
+        "Another Day",
+        "Let Me In"
+      ],
+      "genreIds": [
+        3
+      ],
+      "artistId": 21
+    },
+    {
+      "id": "52",
+      "title": "Faith",
+      "desc": "It is widely regarded as one of the most important pop albums of the 1980s, winning the Grammy Award for Album of the Year in 1989. Michael wrote and produced every track, showcasing his immense talent and creative control. The themes are a bold exploration of love, sex, desire, and fame. Michael uses the album to assert his new, more mature identity, leaving behind the carefree pop of Wham! for a sound that was at once personal, gritty, and incredibly smooth. He became the first white solo artist to top the U.S. Billboard R&B/Hip-Hop Albums chart, a testament to his successful crossover appeal.",
+      "release": "OCtober 30, 1987",
+      "price": "11.40",
+      "photos": "https://cdn.apollo.ee/o/apollo/2/e/1/9/2e198b56a006589d3a794040c12468c9de2f99d6_886978565020.jpg",
+      "tracklist": [
+        "Faith",
+        "Father Figure",
+        "I Want Your Sex (Parts I & II)",
+        "One More Try",
+        "Hard Day",
+        "Hand to Mouth",
+        "Look at Your Hands",
+        "Monkey",
+        "Kissing a Fool"
+      ],
+      "genreIds": [
+        0,
+        4,
+        6
+      ],
+      "artistId": 22
+    },
+    {
+      "id": "53",
+      "title": "Older",
+      "desc": "The album marked a significant artistic and emotional shift for Michael, as it was his first studio album in six years and was deeply influenced by the grief he experienced after the death of his partner, Anselmo Feleppa. The album is a more mature, introspective, and sophisticated work than his previous records.",
+      "release": "May 13, 1996",
+      "price": "16.50",
+      "photos": "https://discjockeymusicstore.com/cdn/shop/products/11896318-29854092618ed8f744578618ed8f74457a1636751607618ed8f74457e_2048x.jpg?v=1654631218",
+      "tracklist": [
+        "Jesus to a Child",
+        "Fastlove",
+        "Older",
+        "Spinning the Wheel",
+        "It Doesn't Really Matter",
+        "The Strangest Thing",
+        "To Be Forgiven",
+        "Move On",
+        "Star People",
+        "You Have Been Loved",
+        "Free"
+      ],
+      "genreIds": [
+        0,
+        4,
+        6
+      ],
+      "artistId": 22
+    },
+    {
+      "id": "54",
+      "title": "From Zero",
+      "desc": "The album's sound is a powerful return to the band's roots, blending the aggressive nu-metal and rap-rock of their early work with the melodic, emotional depth of their later albums. It addresses the emotional weight of their journey while boldly embracing a new identity. The production, handled largely by Mike Shinoda, is polished, modern, and pays homage to the band's iconic sound.",
+      "release": "November 15, 2024",
+      "price": "12.30",
+      "photos": "https://vinyloteka.lt/wp-content/uploads/2024/11/462551767_2597576123764851_7124307768298423268_n.jpg",
+      "tracklist": [
+        "The Emptiness Machine",
+        "Heavy Is the Crown",
+        "Over Each Other",
+        "Guilty All the Same",
+        "The Messenger",
+        "New Divide",
+        "What I've Done",
+        "Leave Out All the Rest",
+        "In the End",
+        "Numb",
+        "Shadow of the Day",
+        "Waiting for the End",
+        "A Line in the Sand",
+        "Final Masquerade",
+        "The Catalyst"
+      ],
+      "genreIds": [
+        1,
+        7
+      ],
+      "artistId": 32
+    },
+    {
+      "id": "55",
+      "title": "Meteora",
+      "desc": "The central themes of the album are an intense exploration of inner turmoil, anxiety, and the struggle with emotional pain. The lyrics, primarily written by Mike Shinoda and Chester Bennington, are deeply personal and raw, focusing on feelings of anger, frustration, and helplessness. The album's sound is a continuation and refinement of the blend of alternative rock, hip-hop, and electronic elements that defined their debut, Hybrid Theory. The production is meticulous and layered, with intricate guitar riffs, programmed beats, and the iconic vocal dynamic between Bennington's soaring, often screamed vocals and Shinoda's rhythmic rapping.",
+      "release": "March 25, 2003",
+      "price": "16.50",
+      "photos": "https://m.media-amazon.com/images/I/71-nhMkC-vL._UF1000,1000_QL80_.jpg",
+      "tracklist": [
+        "Foreword",
+        "Don't Stay",
+        "Somewhere I Belong",
+        "Lying from You",
+        "Hit the Floor",
+        "Easier to Run",
+        "Faint",
+        "Figure.09",
+        "Breaking the Habit",
+        "From the Inside",
+        "Nobody's Listening",
+        "Session",
+        "Numb"
+      ],
+      "genreIds": [
+        1,
+        7
+      ],
+      "artistId": 32
+    },
+    {
+      "id": "56",
+      "title": "Slipknot",
+      "desc": "The album's central themes are a raw and unfiltered expression of anger, aggression, frustration, and social alienation. The lyrics, primarily written by percussionist Shawn Crahan and drummer Joey Jordison, are a visceral and violent critique of society, personal demons, and the feeling of being an outcast. The album's sound is a unique blend of heavy metal, nu-metal, and industrial elements, with a relentless barrage of pounding drums, distorted guitars, and the iconic vocal dynamic between Corey Taylor's melodic singing and his ferocious screams.",
+      "release": "June 29, 1999",
+      "price": "12.97",
+      "photos": "https://i.discogs.com/Bi6koygoH69rXXvhdCECHqSzdzt98QZeqZ5QZ4iyypA/rs:fit/g:sm/q:90/h:535/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4NDc3/OC0xNjI0Mjg1ODAy/LTIwOTguanBlZw.jpeg",
+      "tracklist": [
+        "742617000027",
+        "Surfacing",
+        "Eyeless",
+        "Wait and Bleed",
+        "Liberate",
+        "Prosthetics",
+        "Purity",
+        "Scissors",
+        "Eeyore",
+        "Me Inside",
+        "Get This",
+        "Spit It Out",
+        "Tattered & Torn",
+        "Only One",
+        "No Life",
+        "Diluted",
+        "I Am Hated",
+        "Skin Ticket",
+        "New Abortion",
+        "Metabolic",
+        "Iowa",
+        "Opium of the People",
+        "The Blister Exists",
+        "Three Nil",
+        "The Nameless"
+      ],
+      "genreIds": [
+        7
+      ],
+      "artistId": 50
+    },
+    {
+      "id": "57",
+      "title": "21",
+      "desc": "This album is the second studio album by the English singer-songwriter Adele. The album was a monumental global phenomenon, becoming one of the best-selling albums of all time. It cemented Adele's status as a generational talent and a global superstar. The album's immense success was driven by its deeply personal and raw lyrical content, a universal story of heartbreak and emotional turmoil that resonated with millions of listeners.",
+      "release": "January 24, 2011",
+      "price": "14.99",
+      "photos": "https://impult.ru/preview/r/456x456/upload/iblock/975/975c3eb02e62f63e9ec0584e1453c208.jpg",
+      "tracklist": [
+        "Rolling in the Deep",
+        "Rumour Has It",
+        "Turning Tables",
+        "Don't You Remember",
+        "Set Fire to the Rain",
+        "He Won't Go",
+        "Take It All",
+        "I'll Be Waiting",
+        "One and Only",
+        "Lovesong",
+        "Someone Like You"
+      ],
+      "genreIds": [
+        0,
+        4,
+        6
+      ],
+      "artistId": 2
+    },
+    {
+      "id": "58",
+      "title": "25",
+      "desc": "The album was another monumental success for Adele, shattering sales records worldwide and proving her continued dominance in the music industry. While it carried on the emotional intensity of her previous album, 21, '25' is a more mature and reflective record, focusing on themes of nostalgia, regret, and self-acceptance. The central theme of the album is looking back on the past. Adele has described it as a 'make-up album', a record of reconciliation with herself and the people she's known. ",
+      "release": "November 20, 1982",
+      "price": "15.43",
+      "photos": "https://i.pinimg.com/736x/f2/b1/62/f2b16270f1f063d2e26bcaedd0e2b352.jpg",
+      "tracklist": [
+        "Hello",
+        "Send My Love (To Your New Lover)",
+        "I Miss You",
+        "When We Were Young",
+        "Remedy",
+        "Water Under the Bridge",
+        "River Lea",
+        "Love in the Dark",
+        "Million Years Ago",
+        "All I Ask",
+        "Sweetest Devotion"
+      ],
+      "genreIds": [
+        0,
+        4,
+        6
+      ],
+      "artistId": 2
+    },
+    {
+      "id": "59",
+      "title": "30",
+      "desc": "The album was a massive commercial and critical success, cementing her status as one of the most important artists of her generation. It is her most personal and vulnerable work to date, serving as a raw and honest chronicle of her divorce from Simon Konecki and her journey to navigate the complexities of motherhood and self-love. The central theme of the album is navigating the wreckage of a life-altering event and finding a path to healing. It is an exploration of the pain, guilt, and confusion that come with a public divorce, as well as the moments of hope and self-discovery.",
+      "release": "November 19, 2021",
+      "price": "16.00",
+      "photos": "https://www.rollingstone.com/wp-content/uploads/2021/11/Adele-30-Target-e1636646942772.jpg",
+      "tracklist": [
+        "Strangers by Nature",
+        "Easy on Me",
+        "My Little Love",
+        "Cry Your Heart Out",
+        "Oh My God",
+        "Can I Get It",
+        "I Drink Wine",
+        "All Night Parking (with Erroll Garner) (Interlude)",
+        "Woman Like Me",
+        "Hold On",
+        "To Be Loved",
+        "Love Is a Game"
+      ],
+      "genreIds": [
+        0,
+        4,
+        6
+      ],
+      "artistId": 2
+    },
+    {
+      "id": "60",
+      "title": "Evolve",
+      "desc": "The central theme of the album is personal growth, self-reflection, and a sense of optimism for the future. While the band’s previous work often delved into darker and more existential themes, 'Evolve' is a more hopeful and introspective record. The lyrics explore the process of leaving behind past struggles and embracing a new, more positive mindset. The album's sound is a vibrant blend of rock, pop, and electronic music, with a polished production that features soaring synths, punchy drum beats, and powerful, anthemic choruses.",
+      "release": "June 23, 2017",
+      "price": "19.99",
+      "photos": "https://m.media-amazon.com/images/I/81fnlykiqTL._UF894,1000_QL80_.jpg",
+      "tracklist": [
+        "I Don't Know Why",
+        "Whatever It Takes",
+        "Believer",
+        "Walking the Wire",
+        "Rise Up",
+        "I'll Make It Up to You",
+        "Yesterday",
+        "Mouth of the River",
+        "Thunder",
+        "Dancing in the Dark",
+        "Start Over"
+      ],
+      "genreIds": [
+        0,
+        1
+      ],
+      "artistId": 24
+    },
+    {
+      "id": "61",
+      "title": "Blurryface ",
+      "desc": "The album is a conceptual work centered around a fictional character named Blurryface, a personification of the anxieties and insecurities of the album's protagonist, frontman Tyler Joseph. The central theme of the album is the battle with mental health and the struggle to overcome personal demons. Throughout the album, Blurryface, a character who represents self-doubt and fear, is a constant presence. He 'sings' in a low-pitched, distorted voice on several tracks, a perfect sonic representation of the dark thoughts that plague the mind. ",
+      "release": "May 17, 2015",
+      "price": "17.99",
+      "photos": "https://m.media-amazon.com/images/I/71MRKrpsukL._UF1000,1000_QL80_.jpg",
+      "tracklist": [
+        "Heavydirtysoul",
+        "Stressed Out",
+        "Ride",
+        "Fairly Local",
+        "Tear in My Heart",
+        "Lane Boy",
+        "The Judge",
+        "Doubt",
+        "Polarize",
+        "Message Man",
+        "Hometown",
+        "Not Today",
+        "Goner"
+      ],
+      "genreIds": [
+        0,
+        1,
+        5
+      ],
+      "artistId": 55
+    },
+    {
+      "id": "62",
+      "title": "Trench ",
+      "desc": "The album is a conceptual masterpiece, a fully immersive experience that continues the narrative from their previous album, Blurryface. It introduces a fictional dystopian city called Dema, a prison for its inhabitants, and the main character, a person named Clancy, who is trying to escape with the help of a group of rebels known as the Banditos. The central theme of the album is the battle for freedom and the struggle against external and internal control. The city of Dema represents the mental and emotional struggles that Tyler Joseph battles, and the act of escaping is a metaphor for overcoming anxiety and self-doubt. ",
+      "release": "October 5, 2018",
+      "price": "17.89",
+      "photos": "https://store.twentyonepilots.com/cdn/shop/products/1100x1100-bundle10_1_1.png?v=1678905817",
+      "tracklist": [
+        "Jumpsuit",
+        "Levitate",
+        "Morph",
+        "My Blood",
+        "Chlorine",
+        "Smithereens",
+        "Neon Gravestones",
+        "The Hype",
+        "Nico and the Niners",
+        "Cut My Lip",
+        "Bandito",
+        "Pet Cheetah",
+        "Legend",
+        "Leave the City"
+      ],
+      "genreIds": [
+        0,
+        1,
+        5
+      ],
+      "artistId": 55
+    },
+    {
+      "id": "63",
+      "title": "Pink Friday",
+      "desc": "The album was a massive commercial success, debuting at number one on the Billboard 200 and cementing Minaj's status as a dominant force in both hip-hop and pop music. The album is a bold and ambitious statement that showcased her versatility, her sharp lyrical skills, and her unique, colorful persona.",
+      "release": "November 22, 2010",
+      "price": "21.00",
+      "photos": "https://thatgrapejuice.net/wp-content/uploads/2019/08/pinkfriday-2019-101010-1.jpg",
+      "tracklist": [
+        "I'm the Best",
+        "Roman's Revenge",
+        "Did It on'em",
+        "Right Thru Me",
+        "Fly",
+        "Save Me",
+        "Moment 4 Life",
+        "Check It Out",
+        "Blazin'",
+        "Here I Am",
+        "Dear Old Nicki",
+        "Your Love",
+        "Last Chance"
+      ],
+      "genreIds": [
+        5,
+        9
+      ],
+      "artistId": 39
+    },
+    {
+      "id": "64",
+      "title": "Pink Friday 2",
+      "desc": "The album is a highly anticipated and significant release, serving as a spiritual successor to her iconic 2010 debut, Pink Friday. This album is a full-circle moment for Minaj, a reflection on her journey from a newcomer to a hip-hop legend, and a bold re-assertion of her dominance in the music industry. The central themes of the album are motherhood, legacy, and self-reflection. Minaj explores her new life as a mother, her complicated relationship with fame, and her confidence in her place in hip-hop history.",
+      "release": "December 8, 2023",
+      "price": "19.99",
+      "photos": "https://cdn.hmv.com/r/w-640/hmv/files/3f/3f92fb13-81d6-40bd-95ea-130e60075822.jpg",
+      "tracklist": [
+        "Are You Sure?",
+        "Barbie Dangerous",
+        "FTCU",
+        "Super Freaky Girl",
+        "Pink Friday Girls",
+        "Everybody (feat. Lil Uzi Vert)",
+        "Big Difference",
+        "Red Ruby Da Sleeze",
+        "Forward from 12",
+        "Storytime",
+        "Fallin 4 U",
+        "Just the same (feat. Lil Wayne)",
+        "Blessings",
+        "RNB (feat. Lil Wayne & Tate Kobang)",
+        "Pink Friday 2",
+        "My Mama (feat. 50 Cent)",
+        "Needle in a Haystack",
+        "Beats",
+        "On My Way",
+        "Let Me Calm Down"
+      ],
+      "genreIds": [
+        5,
+        9
+      ],
+      "artistId": 39
+    }
+  ],
+  "artists": [
+    {
+      "id": "1",
+      "name": "50 Cent",
+      "genreIds": [
+        5,
+        9
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Adele",
+      "genreIds": [
+        0,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Aerosmith",
+      "genreIds": [
+        1
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Amy Winehouse",
+      "genreIds": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Arctic Monkeys",
+      "genreIds": [
+        1
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Ariana Grande",
+      "genreIds": [
+        0
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Badbadnotgood",
+      "genreIds": [
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Billie Eilish",
+      "genreIds": [
+        0
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Black Sabbath",
+      "genreIds": [
+        7
+      ]
+    },
+    {
+      "id": "11",
+      "name": "BTS",
+      "genreIds": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Cardi B",
+      "genreIds": [
+        0,
+        5,
+        9
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Chet Baker",
+      "genreIds": [
+        2
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Coldplay",
+      "genreIds": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Conan Grey",
+      "genreIds": [
+        0
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Demon Hunters",
+      "genreIds": [
+        3
+      ]
+    },
+    {
+      "id": "21",
+      "name": "EXO",
+      "genreIds": [
+        3
+      ]
+    },
+    {
+      "id": "22",
+      "name": "George Michael",
+      "genreIds": [
+        0,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Hans Zimmer",
+      "genreIds": [
+        8
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Imagine Dragons",
+      "genreIds": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Jackson Wang",
+      "genreIds": [
+        0,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "27",
+      "name": "John Williams",
+      "genreIds": [
+        8
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Katseye",
+      "genreIds": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Lady Gaga",
+      "genreIds": [
+        0,
+        5
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Linkin Park",
+      "genreIds": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Logic",
+      "genreIds": [
+        5,
+        9
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Luis Armstrong",
+      "genreIds": [
+        2
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Måneskin",
+      "genreIds": [
+        1
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Metallica",
+      "genreIds": [
+        7
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Michael Jackson",
+      "genreIds": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Nicki Minaj",
+      "genreIds": [
+        5,
+        9
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Olivia Rodrigo",
+      "genreIds": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Queen",
+      "genreIds": [
+        1
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Ray Charles",
+      "genreIds": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Sabrina Carpenter",
+      "genreIds": [
+        0
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Sam Smith",
+      "genreIds": [
+        0,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Selena Gomez",
+      "genreIds": [
+        0
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Slipknot",
+      "genreIds": [
+        7
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Sting",
+      "genreIds": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Stray kids",
+      "genreIds": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Joe Hisaishi",
+      "genreIds": [
+        8
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Twenty one pilots",
+      "genreIds": [
+        0,
+        1,
+        5
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "0",
+      "name": "John",
+      "username": "jhon0234",
+      "password": "123456"
+    },
+    {
+      "id": "2506",
+      "name": "2",
+      "username": "2",
+      "password": "2"
+    },
+    {
+      "id": "367f",
+      "name": "3",
+      "username": "3",
+      "password": "3"
+    },
+    {
+      "id": "8b7a",
+      "name": "1",
+      "username": "1",
+      "password": "1"
+    },
+    {
+      "id": "df9c",
+      "name": "ilkin",
+      "username": "memmedli",
+      "password": "12345"
+    },
+    {
+      "id": "e23f",
+      "name": "sabina",
+      "username": "snowly",
+      "password": "Kamran2008"
+    },
+    {
+      "id": "8852",
+      "name": "ff",
+      "username": "ff",
+      "password": "ff"
+    },
+    {
+      "id": "88c9",
+      "name": "a",
+      "username": "a",
+      "password": "a"
+    },
+    {
+      "id": "ca48",
+      "name": "j",
+      "username": "j",
+      "password": "j"
+    }
+  ],
+  "genres": [
+    {
+      "id": "0",
+      "name": "Pop"
+    },
+    {
+      "id": "1",
+      "name": "Rock"
+    },
+    {
+      "id": "2",
+      "name": "Jazz"
+    },
+    {
+      "id": "3",
+      "name": "K-pop"
+    },
+    {
+      "id": "4",
+      "name": "Soul"
+    },
+    {
+      "id": "5",
+      "name": "Hip-Hop"
+    },
+    {
+      "id": "6",
+      "name": "R&B"
+    },
+    {
+      "id": "7",
+      "name": "Metal"
+    },
+    {
+      "id": "8",
+      "name": "Neoclassical"
+    },
+    {
+      "id": "9",
+      "name": "Rap"
+    }
+  ],
+  "cart": [
+    {
+      "id": "cf3b",
+      "productId": "29",
+      "userId": "2506",
+      "count": 1
+    },
+    {
+      "id": "c5c0",
+      "productId": "36",
+      "userId": "2506",
+      "count": 1
+    },
+    {
+      "id": "641b",
+      "productId": "37",
+      "userId": "2506",
+      "count": 1
+    },
+    {
+      "id": "35cb",
+      "productId": "1",
+      "userId": "2506",
+      "count": 1
+    },
+    {
+      "id": "416f",
+      "productId": "36",
+      "userId": "8852",
+      "count": 1
+    }
+  ],
+  "fav": [
+    {
+      "id": "e81c",
+      "userId": "2506",
+      "productId": "18"
+    },
+    {
+      "id": "0952",
+      "userId": "2506",
+      "productId": "29"
+    },
+    {
+      "id": "f1cb",
+      "userId": "2506",
+      "productId": "7"
+    },
+    {
+      "id": "c783",
+      "userId": "2506",
+      "productId": "8"
+    },
+    {
+      "id": "9bcd",
+      "userId": "2506",
+      "productId": "19"
+    },
+    {
+      "id": "bb88",
+      "userId": "2506",
+      "productId": "12"
+    },
+    {
+      "id": "399d",
+      "userId": "2506",
+      "productId": "9"
+    },
+    {
+      "id": "cacd",
+      "userId": "2506",
+      "productId": "11"
+    },
+    {
+      "id": "4a2f",
+      "userId": "2506",
+      "productId": "23"
+    },
+    {
+      "id": "2c05",
+      "userId": "2506",
+      "productId": "17"
+    },
+    {
+      "id": "06c0",
+      "userId": "2506",
+      "productId": "16"
+    },
+    {
+      "id": "acd1",
+      "userId": "2506",
+      "productId": "13"
+    },
+    {
+      "id": "cb5e",
+      "userId": "2506",
+      "productId": "27"
+    },
+    {
+      "id": "5dba",
+      "userId": "2506",
+      "productId": "28"
+    },
+    {
+      "id": "1a92",
+      "userId": "0",
+      "productId": "23"
+    }
+  ]
+}

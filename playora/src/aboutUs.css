@@ -1,0 +1,64 @@
+.left-animation,
+.center-animation {
+  transform: translateX(-150%);
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: left-animation;
+}
+
+.left-animation {
+  padding-left: 65px;
+}
+
+.second {
+  animation-delay: 0.1s;
+}
+
+.right-animation {
+  transform: translateX(150%);
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: right-animation;
+  padding-right: 65px;
+}
+
+.third,
+.forth {
+  animation-delay: 0.5s;
+}
+
+.center-animation {
+  animation-delay: 0.8s;
+}
+
+@keyframes left-animation {
+  from {
+    transform: translateX(-150%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+
+@keyframes right-animation {
+  from {
+    transform: translateX(150%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .left-animation {
+    padding-left: 0px;
+  }
+
+  .right-animation {
+    padding-right: 0px;
+  }
+}
