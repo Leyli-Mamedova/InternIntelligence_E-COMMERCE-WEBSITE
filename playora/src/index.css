@@ -184,6 +184,11 @@ footer {
   background-color: rgba(230, 203, 251, 0.6) !important;
 }
 
+.albums-dropdown {
+  position: absolute !important;
+  z-index: 2000 !important;
+}
+
 .genre-page {
   background: linear-gradient(0deg, rgb(223, 133, 251), rgb(171, 46, 254));
 }

@@ -3,7 +3,6 @@ import { useParams, useLocation } from "react-router-dom";
 import axios from "axios";
 import Card from "../components/Card";
 import { Dropdown } from 'react-bootstrap';
-import { useRef } from 'react';
 
 const GenrePage = () => {
     const { genreName } = useParams();
@@ -13,29 +12,26 @@ const GenrePage = () => {
     const [genres, setGenres] = useState([]);
     const [filteredAlbums, setFilteredAlbums] = useState([]);
     const [artistsInGenre, setArtistsInGenre] = useState([]);
-    const [selectedArtists, setSelectedArtists] = useState(null);
+    const [selectedArtists, setSelectedArtists] = useState([]); // Исправлено: инициализация пустым массивом
     const [loading, setLoading] = useState(true);
-    const queryParams = new URLSearchParams(location.search);
-    const searchQuery = queryParams.get("q")?.toLowerCase() || "";
-    const albumsRef = useRef(null);
     const [dropdownOpen, setDropdownOpen] = useState(true);
+
+    // Путь к вашей базе данных относительно корня сайта на GitHub Pages
+    const DB_URL = "/InternIntelligence_E-COMMERCE-WEBSITE/db.json";
 
     const fetchData = useCallback(async () => {
         try {
-            setLoading(true)
-            const [albumsRes, artistsRes, genresRes] = await Promise.all([
-                axios.get("http://localhost:3003/albums"),
-                axios.get("http://localhost:3003/artists"),
-                axios.get("http://localhost:3003/genres")
-            ]);
-            setAlbums(albumsRes.data);
-            setArtists(artistsRes.data);
-            setGenres(genresRes.data);
-            return
+            setLoading(true);
+            // Получаем все данные одним запросом из статического файла
+            const res = await axios.get(DB_URL);
+            
+            setAlbums(res.data.albums);
+            setArtists(res.data.artists);
+            setGenres(res.data.genres);
         } catch (error) {
             console.error("Error when receiving data:", error);
         } finally {
-            setLoading(false)
+            setLoading(false);
         }
     }, []);
 
@@ -43,49 +39,51 @@ const GenrePage = () => {
         fetchData();
     }, [fetchData]);
 
+    // Сброс выбранных артистов при смене жанра или новом поиске
     useEffect(() => {
         setSelectedArtists([]);
-    }, [genreName, searchQuery]);
+    }, [genreName]);
 
     useEffect(() => {
         if (albums.length > 0 && artists.length > 0 && genres.length > 0) {
             let finalAlbums = [];
+            let currentGenreId = null;
 
+            // 1. Фильтрация по жанру
             if (genreName.toLowerCase() === "all") {
                 finalAlbums = albums;
                 setArtistsInGenre(artists);
             } else {
                 const genre = genres.find(g => g.name.toLowerCase() === genreName.toLowerCase());
-                const genreId = genre ? genre.id : null;
+                currentGenreId = genre ? genre.id : null;
 
-                const artistsForGenre = artists.filter(artist => {
-                    if (Array.isArray(artist.genreIds)) {
-                        return artist.genreIds.map(String).includes(String(genreId));
-                    }
-                    // return String(artist.genreId) === String(genreId);
-                });
+                const artistsForGenre = artists.filter(artist => 
+                    Array.isArray(artist.genreIds) 
+                        ? artist.genreIds.map(String).includes(String(currentGenreId))
+                        : String(artist.genreId) === String(currentGenreId)
+                );
                 setArtistsInGenre(artistsForGenre);
 
-                finalAlbums = albums.filter(album => {
-                    if (Array.isArray(album.genreIds)) {
-                        return album.genreIds.map(String).includes(String(genreId));
-                    }
-                    return String(album.genreIds) === String(genreId);
-                });
+                finalAlbums = albums.filter(album => 
+                    Array.isArray(album.genreIds)
+                        ? album.genreIds.map(String).includes(String(currentGenreId))
+                        : String(album.genreIds) === String(currentGenreId)
+                );
             }
 
-            // фильтр по артисту
+            // 2. Фильтр по выбранным артистам (мультивыбор)
             if (selectedArtists.length > 0) {
                 const selectedIds = selectedArtists.map(a => String(a.id));
                 finalAlbums = finalAlbums.filter(album => selectedIds.includes(String(album.artistId)));
             }
 
-            // фильтр по поиску
+            // 3. Фильтр по поисковому запросу из URL
             const queryParams = new URLSearchParams(location.search);
             const searchQuery = queryParams.get("q")?.toLowerCase() || "";
+            
             if (searchQuery) {
                 finalAlbums = finalAlbums.filter(album => {
-                    const artist = artists.find(a => a.id == album.artistId);
+                    const artist = artists.find(a => String(a.id) === String(album.artistId));
                     const tracklistMatches = album.tracklist?.some(track =>
                         track.toLowerCase().includes(searchQuery)
                     );
@@ -105,10 +103,8 @@ const GenrePage = () => {
     const toggleArtistSelection = (artist) => {
         setSelectedArtists(prev => {
             if (prev.some(a => a.id === artist.id)) {
-                // удалить артиста из массива
                 return prev.filter(a => a.id !== artist.id);
             } else {
-                // добавить артиста в массив
                 return [...prev, artist];
             }
         });
@@ -116,33 +112,33 @@ const GenrePage = () => {
 
     const toggleSelectAllArtists = () => {
         if (selectedArtists.length === artistsInGenre.length) {
-            // если все выбраны — снимаем выбор
             setSelectedArtists([]);
         } else {
-            // выбираем всех
             setSelectedArtists([...artistsInGenre]);
         }
     };
 
     if (loading) {
-        return (
-            <div className="container-fluid px-2 px-md-5 py-3 genre-page" style={{ height: "100vh" }}>
-            </div>
-        );
+        return <div className="container-fluid px-2 px-md-5 py-3 genre-page" style={{ height: "100vh" }}></div>;
     }
+
     return (
         <section className="container-fluid px-2 px-md-5 py-3 genre-page" id='genre-page'>
-            <h4 className="mb-4 text-white">{genreName.toLowerCase() === "all" ? "Iconic CDs" : `Iconic "${genreName}" CDs`}</h4>
+            <h4 className="mb-4 text-white">
+                {genreName.toLowerCase() === "all" ? "Iconic CDs" : `Iconic "${genreName}" CDs`}
+            </h4>
+            
             <div className="row">
+                {/* Левая колонка: Фильтры */}
                 <div className="col-12 col-md-3">
-                    <Dropdown
-                        className="w-100 mb-5 mb-md-0"
-                        show={dropdownOpen}
-                        onToggle={() => { }}
+                    <Dropdown 
+                        className="w-100 mb-5 mb-md-0" 
+                        show={dropdownOpen} 
+                        onToggle={() => {}}
                     >
                         <Dropdown.Toggle
                             id="dropdown-basic"
-                            className="w-100 bg-white text-black border-0"
+                            className="w-100 bg-white text-black border-0 d-flex justify-content-between align-items-center"
                             onClick={(e) => {
                                 e.preventDefault();
                                 setDropdownOpen(!dropdownOpen);
@@ -151,38 +147,39 @@ const GenrePage = () => {
                             <span className="fw-bold">Artists</span>
                         </Dropdown.Toggle>
 
-                        <Dropdown.Menu className="w-100 scrollable-dropdown-menu">
-                            {/* "All Artists" — сброс фильтра */}
+                        <Dropdown.Menu className="w-100 scrollable-dropdown-menu shadow">
                             <Dropdown.Item
                                 onClick={(e) => {
                                     e.stopPropagation();
                                     toggleSelectAllArtists();
-                                    setDropdownOpen(true); // оставляем меню открытым
                                 }}
                                 className="drop-down-artists"
                             >
-                                <label className="d-flex align-items-center mb-0">
+                                <label className="d-flex align-items-center mb-0 w-100" style={{ cursor: 'pointer' }}>
                                     <input
                                         type="checkbox"
                                         checked={selectedArtists.length === artistsInGenre.length && artistsInGenre.length > 0}
-                                        readOnly
+                                        onChange={() => {}} // Управляется через onClick родителя
                                         className="me-2"
                                     />
                                     All Artists
                                 </label>
                             </Dropdown.Item>
 
-                            {/* Мультивыбор артистов */}
                             {artistsInGenre.map((artist) => (
-                                <Dropdown.Item key={artist.id} className="drop-down-artists">
-                                    <label
-                                        className="d-flex align-items-center mb-0"
-                                        onClick={() => toggleArtistSelection(artist)} // кликаем по всей строке
-                                    >
+                                <Dropdown.Item 
+                                    key={artist.id} 
+                                    className="drop-down-artists"
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        toggleArtistSelection(artist);
+                                    }}
+                                >
+                                    <label className="d-flex align-items-center mb-0 w-100" style={{ cursor: 'pointer' }}>
                                         <input
                                             type="checkbox"
                                             checked={selectedArtists.some(a => a.id === artist.id)}
-                                            readOnly // важен readOnly, чтобы React не ругался
+                                            onChange={() => {}}
                                             className="me-2"
                                         />
                                         {artist.name}
@@ -193,15 +190,21 @@ const GenrePage = () => {
                     </Dropdown>
                 </div>
 
+                {/* Правая колонка: Список альбомов */}
                 <div className="right col-12 col-md-9">
                     {filteredAlbums.length === 0 ? (
-                        <div className="w-50 m-auto mb-g-5">
-                            <p className="text-white fs-2 d-flex align-items-center" style={{ height: '40vh' }}>Nothing found</p>
+                        <div className="text-center w-100 py-5">
+                            <p className="text-white fs-2">Nothing found</p>
                         </div>
                     ) : (
                         <div className="row gy-4">
                             {filteredAlbums.map(album => (
-                                <Card key={album.id} data={album} artists={artists} refetch={fetchData} />
+                                <Card 
+                                    key={album.id} 
+                                    data={album} 
+                                    artists={artists} 
+                                    refetch={fetchData} 
+                                />
                             ))}
                         </div>
                     )}

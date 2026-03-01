@@ -12,7 +12,7 @@ const useCart = () => {
       return;
     }
 
-    let cart = await (await axios.get(`http://localhost:3003/cart`)).data;
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
     cart = cart.filter((x) => x.userId === currentUser.id);
     const exist = cart.find((x) => x.productId === product.id);
 
@@ -33,10 +33,20 @@ const useCart = () => {
     }
   };
 
-  const increaseCount = async (id) => {
-    const res = await (await axios.get(`http://localhost:3003/cart/${id}`)).data;
-    res.count = res?.count + 1;
-    await axios.put(`http://localhost:3003/cart/${id}`, res);
+  const increaseCount = (id) => {
+    // 1. Достаем корзину из памяти браузера (или создаем пустой массив, если ее нет)
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // 2. Находим нужный товар и увеличиваем счетчик
+    const updatedCart = cart.map(item =>
+      item.id === id ? { ...item, count: (item.count || 0) + 1 } : item
+    );
+
+    // 3. Сохраняем обновленную корзину обратно в память
+    localStorage.setItem('cart', JSON.stringify(updatedCart));
+
+    // 4. Не забудьте обновить состояние (state) в вашем Context, чтобы UI изменился
+    setCart(updatedCart);
   };
 
   return { addToCart };

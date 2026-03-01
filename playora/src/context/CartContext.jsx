@@ -14,7 +14,8 @@ export const CartProvider = ({ children }) => {
     const fetchCartCount = async (currentUser) => {
         if (currentUser) {
             try {
-                const response = await axios.get('http://localhost:3003/cart');
+                const response = await axios.get('/InternIntelligence_E-COMMERCE-WEBSITE/db.json');
+                const res = response.data.users;
                 const userCartItems = response.data.filter(item => item.userId === currentUser.id);
                 const totalItems = userCartItems.length;
                 setCartCount(totalItems);

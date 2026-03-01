@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import "../index.css";
@@ -5,7 +6,6 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { useCart } from "../context/CartContext";
 import { useAuth } from "../context/AuthContext";
-import { useFav } from "../context/FavContext";
 
 const Nav = () => {
     const [genres, setGenres] = useState([]);
@@ -14,15 +14,16 @@ const Nav = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // бургер-меню
     const { cartCount, fetchCartCount } = useCart();
     const { currentUser, logout } = useAuth();
-    const { fetchFavs } = useFav();
-
     const navigate = useNavigate();
     const location = useLocation();
 
     useEffect(() => {
         axios
-            .get("http://localhost:3003/genres")
-            .then((res) => setGenres(res.data))
+            .get('/InternIntelligence_E-COMMERCE-WEBSITE/db.json')
+            .then((res) => {
+                // ИСПРАВЛЕНО: берем конкретно поле genres из объекта
+                setGenres(res.data.genres || []);
+            })
             .catch((err) => console.error("Error while downloading genres", err));
     }, []);
 
@@ -42,7 +43,6 @@ const Nav = () => {
     };
 
     useEffect(() => {
-        fetchFavs(currentUser?.id)
         fetchCartCount(currentUser); // обновляем цифру корзины при логине
     }, [currentUser]);
 
@@ -92,11 +92,6 @@ const Nav = () => {
                     {/* Cart + Fav + User */}
                     <div className="me-auto col-4">
                         <ul className="navbar-nav d-flex w-100 flex-row justify-content-end align-items-center">
-                            <li className="nav-item">
-                                <Link to="/fav" className="text-white fs-5 text-decoration-none">
-                                    <i className="fa-solid fa-heart fs-3"></i>
-                                </Link>
-                            </li>
                             <li className="nav-item ms-3">
                                 <Link
                                     to="/cart"
@@ -148,7 +143,6 @@ const Nav = () => {
 
             {/* Моб версия*/}
             <header className="d-flex d-md-none flex-column bg-black text-white sticky-top py-2 px-3">
-                {/* Верхняя панель: логотип + PLAYER слева, бургер справа */}
                 <div className="d-flex justify-content-between align-items-center mb-3">
                     <div className="d-flex align-items-center ">
                         <img
@@ -238,7 +232,7 @@ const Nav = () => {
             {mobileMenuOpen && (
                 <div className="mobile-menu bg-black text-white p-3 d-flex flex-column gap-3">
                     {/* Навигация */}
-                    <NavLink to="/" className="mobile-nav text-white text-decoration-none ps-1 albums-dropdown-li rounded-2 mobile-nav">Home</NavLink>
+                    <NavLink to="/" className="mobile-nav text-white text-decoration-none ps-1 albums-dropdown-li rounded-2 mobile-nav" onClick={() => setMobileMenuOpen(false)}>Home</NavLink>
                     <Dropdown>
                         <Dropdown.Toggle className="bg-black text-white border-0 w-100 text-start p-0 ps-1 albums-dropdown-li text-decoration-none text-black">
                             Albums
@@ -246,24 +240,23 @@ const Nav = () => {
                         <Dropdown.Menu className="w-100">
                             <Dropdown.Item as={NavLink} to="/genre/All"
                                 className="albums-dropdown-li text-decoration-none text-black bg-white"
+                                onClick={() => setMobileMenuOpen(false)}
                             >All</Dropdown.Item>
                             {genres.map((genre) => (
                                 <Dropdown.Item key={genre.id} as={NavLink}
                                     className="albums-dropdown-li text-decoration-none text-black bg-white"
-                                    to={`/genre/${genre.name}`}>
+                                    to={`/genre/${genre.name}`}
+                                    onClick={() => setMobileMenuOpen(false)}>
                                     {genre.name}
                                 </Dropdown.Item>
                             ))}
                         </Dropdown.Menu>
                     </Dropdown>
-                    <NavLink to="/aboutUs" className="text-white text-decoration-none mobile-nav albums-dropdown-li rounded-2 mobile-nav">About Us</NavLink>
-                    <NavLink to="/contacts" className="text-white text-decoration-none mobile-nav albums-dropdown-li rounded-2 mobile-nav">Contacts</NavLink>
+                    <NavLink to="/aboutUs" className="text-white text-decoration-none mobile-nav albums-dropdown-li rounded-2 mobile-nav" onClick={() => setMobileMenuOpen(false)}>About Us</NavLink>
+                    <NavLink to="/contacts" className="text-white text-decoration-none mobile-nav albums-dropdown-li rounded-2 mobile-nav" onClick={() => setMobileMenuOpen(false)}>Contacts</NavLink>
 
                     {/* Раздел пользователя */}
-                    <Link to="/fav" className="text-white text-decoration-none">
-                        <i className="fa-solid fa-heart me-2"></i> Favorites
-                    </Link>
-                    <Link to="/cart" className="text-white text-decoration-none">
+                    <Link to="/cart" className="text-white text-decoration-none" onClick={() => setMobileMenuOpen(false)}>
                         <i className="fa-solid fa-cart-shopping me-2"></i> Cart ({cartCount})
                     </Link>
                     {currentUser ? (
@@ -275,8 +268,8 @@ const Nav = () => {
                         </>
                     ) : (
                         <>
-                            <Link to="/login" className="btn btn-outline-light w-100 rounded-5">Log in</Link>
-                            <Link to="/register" className="btn btn-light text-dark w-100 rounded-5">Sign up</Link>
+                            <Link to="/login" className="btn btn-outline-light w-100 rounded-5" onClick={() => setMobileMenuOpen(false)}>Log in</Link>
+                            <Link to="/register" className="btn btn-light text-dark w-100 rounded-5" onClick={() => setMobileMenuOpen(false)}>Sign up</Link>
                         </>
                     )}
                 </div>
@@ -286,4 +279,3 @@ const Nav = () => {
 };
 
 export default Nav;
-

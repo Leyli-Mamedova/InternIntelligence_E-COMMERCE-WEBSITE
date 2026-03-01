@@ -1,1 +1,0 @@
-// export const genres =['Pop','Rock','Jazz','K-pop','Soul','Hip-hop','Country','R&B', 'Metal']

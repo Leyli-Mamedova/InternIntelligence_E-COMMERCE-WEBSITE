@@ -4,12 +4,9 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
-import { useFav } from '../context/FavContext';
 
 const Login = () => {
-    const { fetchFavs } = useFav();
     const { currentUser } = useAuth();
-
     const { login } = useAuth();
     const [formData, setFormData] = useState({ name: '', password: '' });
     const [errors, setErrors] = useState('');

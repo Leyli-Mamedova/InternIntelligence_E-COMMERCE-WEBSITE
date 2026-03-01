@@ -8,7 +8,10 @@ const Genres = () => {
     useEffect(() => {
         const fetchGenres = async () => {
             try {
-                const response = await axios.get("http://localhost:3003/genres");
+                const response = await axios.get('/InternIntelligence_E-COMMERCE-WEBSITE/db.json');
+
+                // 2. Достаем из него именно массив cart
+                const cart = response.data.cart;
                 setGenres(response.data);
             } catch (error) {
                 console.error("Error fetching genres:", error);
@@ -22,7 +25,7 @@ const Genres = () => {
             <h1 className="text-center fw-bold text-black mb-5 pt-4">Categories</h1>
             <div className="row g-4 justify-content-center pb-5">
                 {genres.map(genre => (
-                    <div className="col-6 col-md-4 categories-genres" key={genre.id} style={{width: '250px'}}>
+                    <div className="col-6 col-md-4 categories-genres" key={genre.id} style={{ width: '250px' }}>
                         <Link to={`/genre/${genre.name}`} className="text-decoration-none">
                             <div className="card text-center border-0 shadow-sm category-card">
                                 <div className="card-body mb-0 py-1 py-md-3 text-center">
