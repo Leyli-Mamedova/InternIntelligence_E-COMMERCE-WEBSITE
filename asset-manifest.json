@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/InternIntelligence_E-COMMERCE-WEBSITE/static/css/main.031cbcca.css",
-    "main.js": "/InternIntelligence_E-COMMERCE-WEBSITE/static/js/main.235ea20e.js",
+    "main.js": "/InternIntelligence_E-COMMERCE-WEBSITE/static/js/main.51919ef3.js",
     "index.html": "/InternIntelligence_E-COMMERCE-WEBSITE/index.html",
     "main.031cbcca.css.map": "/InternIntelligence_E-COMMERCE-WEBSITE/static/css/main.031cbcca.css.map",
-    "main.235ea20e.js.map": "/InternIntelligence_E-COMMERCE-WEBSITE/static/js/main.235ea20e.js.map"
+    "main.51919ef3.js.map": "/InternIntelligence_E-COMMERCE-WEBSITE/static/js/main.51919ef3.js.map"
   },
   "entrypoints": [
     "static/css/main.031cbcca.css",
-    "static/js/main.235ea20e.js"
+    "static/js/main.51919ef3.js"
   ]
 }
